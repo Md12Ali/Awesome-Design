@@ -117,32 +117,34 @@ A simple palette for contrast and accessibility:
 - Highlights: #198754 (Green)
 
 This ensures WCAG compliance, with no distractions from backgrounds and consistent graphics.
+## 🧪 Manual Testing Report
+The following testing procedures were designed and implemented.
 
-Functional Testing
+### 1. Functional Testing
 | Feature | Expected Outcome | Result |
-|---|---|---|
-| Navigation Links | All menu items lead to the correct section or page. | Pass |
-| External Links | All external links open in a new browser tab (target="_blank"). | Pass |
-| User Control | Audio/Video or pop-ups are user-initiated and not automatic. | Pass |
-| Broken Links | No internal links are broken within the application. | Pass |
+| :--- | :--- | :--- |
+| **Navigation Links** | All menu items lead to the correct section or page. | **Pass** |
+| **External Links** | All external links open in a new browser tab (`target="_blank"`). | **Pass** |
+| **User Control** | Audio/Video or pop-ups are user-initiated and not automatic. | **Pass** |
+| **Broken Links** | No internal links are broken within the application. | **Pass** |
 
-UI/UX & Accessibility Testing
+### 2. UI/UX & Accessibility Testing
 | Test Case | Description | Result |
-|---|---|---|
-| Information Hierarchy | Headers (h1-h6) are used correctly to convey content structure. | Pass |
-| Color Contrast | Background and foreground colors have sufficient contrast for readability. | Pass |
-| Image Resolution | Images are high quality and do not appear pixelated or stretched. | Pass |
-| Non-text Elements | All images have descriptive alt text for screen readers. | Pass |
+| :--- | :--- | :--- |
+| **Information Hierarchy** | Headers (h1-h6) are used correctly to convey content structure. | **Pass** |
+| **Color Contrast** | Background and foreground colors have sufficient contrast for readability. | **Pass** |
+| **Image Resolution** | Images are high quality and do not appear pixelated or stretched. | **Pass** |
+| **Non-text Elements** | All images have descriptive alt text for screen readers. | **Pass** |
 
-Responsiveness & Compatibility
+### 3. Responsiveness & Compatibility
 | Device/Browser | Testing Action | Result |
-|---|---|---|
-| Mobile (Small) | Layout stacks vertically and remains readable without horizontal scrolling. | Pass |
-| Tablet (Medium) | Grid/Flexbox layout adjusts appropriately to screen width. | Pass |
-| Desktop (Large) | Full-width layout maintains structural integrity. | Pass |
-| W3C Validator | HTML code passes through the official W3C validator with no issues. | Pass |
-| Jigsaw Validator | Custom CSS passes through the official Jigsaw validator with no issues. | Pass |
-🛠️ Fixed Bugs & Issues
+| :--- | :--- | :--- |
+| **Mobile (Small)** | Layout stacks vertically and remains readable (320px). | **Pass** |
+| **Tablet (Medium)** | Grid/Flexbox layout adjusts appropriately (768px). | **Pass** |
+| **W3C Validator** | HTML code passes through the official W3C validator. | **Pass** |
+| **Jigsaw Validator** | Custom CSS passes through the official Jigsaw validator. | **Pass** |
+
+
 During the development life cycle, the following issues were identified and resolved:
  * Issue: Navigation menu was overlapping on small mobile screens.
    * Fix: Implemented CSS Media Queries to adjust the font size and padding for screens under 480px.
