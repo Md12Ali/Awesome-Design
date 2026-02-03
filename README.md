@@ -61,7 +61,7 @@ The site meets accessibility guidelines (1.2): High contrast between foreground 
 The design phase involved creating wireframes to plan the information hierarchy and user flow. These sketches ensured that headers were placed strategically and navigation remained intuitive across all screen sizes.
 
 ![Project Wireframe](assets/images/wireframe.png)
-*Figure 1: Initial wireframe design for the Awesome-Design portfolio.*
+
 
 
 
