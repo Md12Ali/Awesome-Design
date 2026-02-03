@@ -1,56 +1,51 @@
-# 🚀 Awesome-Design: Professional Portfolio
-**[span_0](start_span)Live Site:** [Visit My Portfolio](https://ali-design.neocities.org/)[span_0](end_span)
+# Professional Portfolio
+**Live Site:** [Visit My Portfolio](https://ali-design.neocities.org/)
 
 ---
-
 ## 📖 Project Rationale
-[span_1](start_span)This portfolio website is designed as a real-world application to showcase expertise in web design and front-end development[span_1](end_span). 
-* **[span_2](start_span)Purpose:** To provide potential clients and employers an intuitive, accessible interface to explore my professional background and project capabilities[span_2](end_span).
-* **[span_3](start_span)Justification:** A single-page scrolling architecture was chosen to ensure a "Flow of Information" that minimizes user clicks and keeps the experience unambiguous[span_3](end_span).
-* **[span_4](start_span)Target Audience:** Potential clients, tech recruiters, and web development collaborators[span_4](end_span).
+This portfolio website is designed as a real-world application to showcase expertise in web design and front-end development. 
+* **Purpose:** To provide potential clients and employers an intuitive, accessible interface to explore my professional background and project capabilities.
+* **Justification:** A single-page scrolling architecture was chosen to ensure a "Flow of Information" that minimizes user clicks and keeps the experience unambiguous.
+* **Target Audience:** Potential clients, tech recruiters, and web development collaborators.
 
 ## 👥 User Stories
-[span_5](start_span)The application is built to provide a solution to the following user demands[span_5](end_span):
-* **[span_6](start_span)[span_7](start_span)As a new visitor:** I want the site's purpose to be immediately evident so I don't need supporting documentation[span_6](end_span)[span_7](end_span).
-* **[span_8](start_span)As an employer:** I want to see clear examples of past work and services to evaluate technical skills[span_8](end_span).
-* **[span_9](start_span)As a mobile user:** I want a responsive layout that maintains structural integrity across all device sizes[span_9](end_span).
-* **[span_10](start_span)As an accessibility-dependent user:** I want high-contrast text and descriptive alt-tags for all images[span_10](end_span).
+The application is built to provide a solution to the following user demands:
+* **As a new visitor:** I want the site's purpose to be immediately evident so I don't need supporting documentation.
+* **As an employer:** I want to see clear examples of past work and services to evaluate technical skills.
+* **As a mobile user:** I want a responsive layout that maintains structural integrity across all device sizes.
+* **As an accessibility-dependent user:** I want high-contrast text and descriptive alt-tags for all images.
 
 ## 🎨 UX & Design Documentation
-### Design Principles
-* **[span_11](start_span)[span_12](start_span)Information Hierarchy:** Headers (H1-H6) are used strictly to convey structure, making each section easy to find based on priority[span_11](end_span)[span_12](end_span).
-* **[span_13](start_span)[span_14](start_span)Accessibility:** Meets guidelines for contrast between background and foreground colors to cater to the visually impaired[span_13](end_span)[span_14](end_span).
-* **[span_15](start_span)[span_16](start_span)User Control:** The site avoids aggressive pop-ups and autoplay of media; users initiate all actions[span_15](end_span)[span_16](end_span).
-* **[span_17](start_span)[span_18](start_span)Consistency:** Graphics and interactivity are consistent across all sections to maintain a professional-grade UI[span_17](end_span)[span_18](end_span).
+### Design Principles 
+* **Information Hierarchy:** Headers (H1-H6) are used strictly to convey structure, making each section easy to find based on priority.
+* **Accessibility:** Meets guidelines for contrast between background and foreground colors to cater to the visually impaired.
+* **User Control:** The site avoids aggressive pop-ups and autoplay of media; users initiate all actions.
+* **Consistency:** Graphics and interactivity are consistent across all sections to maintain a professional-grade UI.
+
 
 ## 🛠️ Tech Stack & Development
-* **[span_19](start_span)[span_20](start_span)Frontend:** HTML5 (Semantic Markup), CSS3 (Custom Styles), Bootstrap 5 (Responsive Grid)[span_19](end_span)[span_20](end_span).
-* **[span_21](start_span)[span_22](start_span)Validation:** * HTML passed through the official **W3C Validator**[span_21](end_span)[span_22](end_span).
-  * [span_23](start_span)[span_24](start_span)CSS passed through the official **Jigsaw Validator**[span_23](end_span)[span_24](end_span).
-* **[span_25](start_span)[span_26](start_span)Maintainability:** Code is organized into well-defined, commented sections with external CSS files linked in the HEAD element[span_25](end_span)[span_26](end_span).
+* **Frontend:** HTML5 (Semantic Markup), CSS3 (Custom Styles), Bootstrap 5 (Responsive Grid).
+* **Validation:** * HTML passed through the official **W3C Validator**.
+    * CSS passed through the official **Jigsaw Validator**.
+* **Maintainability:** Code is organized into well-defined, commented sections with external CSS files linked in the HEAD element.
 
-## 🧪 Testing & Bug Evaluation 
-[span_27](start_span)Manual testing procedures were implemented to assess functionality and responsiveness[span_27](end_span).
+## 🧪 Testing & Bug Evaluation
+Manual testing procedures were implemented to assess functionality and responsiveness.
 
 | Feature | Action | Result |
 | :--- | :--- | :--- |
-| **Responsiveness** | Checked on Mobile, Tablet, and Desktop resolutions | **[span_28](start_span)Pass**[span_28](end_span) |
-| **Link Integrity** | Verified all internal and external links (open in new tab) | **[span_29](start_span)[span_30](start_span)Pass**[span_29](end_span)[span_30](end_span) |
-| **Form Validation** | Ensured contact form handles user inputs correctly | **[span_31](start_span)Pass**[span_31](end_span) |
+| **Responsiveness** | Checked on Mobile, Tablet, and Desktop resolutions | **Pass** |
+| **Link Integrity** | Verified all internal and external links (open in new tab) | **Pass** |
+| **Form Validation** | Ensured contact form handles user inputs correctly | **Pass** |
 
 ### Bug Fixes & Evaluation
-* **[span_32](start_span)Fixed:** Resolved a navbar overlap issue on small screens using CSS Media Queries[span_32](end_span).
-* **[span_33](start_span)Fixed:** Corrected image pixelation by using higher-resolution assets[span_33](end_span).
-* **[span_34](start_span)[span_35](start_span)Status:** No obvious errors remain; the code is considered robust and publishable[span_34](end_span)[span_35](end_span).
+* **Fixed:** Resolved a navbar overlap issue on small screens using CSS Media Queries.
+* **Fixed:** Corrected image pixelation by using higher-resolution assets.
+* **Status:** No obvious errors remain; the code is considered robust and publishable.
 
-## 🚀 Deployment
-[span_36](start_span)The project is deployed to a cloud-based hosting platform and tested to ensure it matches the development version[span_36](end_span).
-* **[span_37](start_span)[span_38](start_span)Version Control:** Git & GitHub were used throughout with descriptive commit messages for each feature[span_37](end_span)[span_38](end_span).
-
-## 📜 Credits & Attribution 
-* **[span_39](start_span)External Assets:** Icons from Font Awesome, Fonts from Google Fonts[span_39](end_span).
-* **[span_40](start_span)[span_41](start_span)Attribution:** All code from external libraries or tutorials is attributed via comments above the code segments[span_40](end_span)[span_41](end_span).
-
+## 🚀 Deployment 
+The project is deployed to a cloud-based hosting platform and tested to ensure it matches the development version.
+* **Version Control:** Git & GitHub were used throughout with descriptive commit messages for each feature.
 
 ### Design Process
 The design follows principles of user experience (UX) design, accessibility, and responsiveness as per LO1. Wireframes were sketched in Photoshop to plan the structure, starting with a main navigation menu and single-scrolling page divided into sections (Intro, About, Services, Portfolio, Contact). Information hierarchy was prioritized: headers convey structure (e.g., H1 for section titles), content is categorized by priority (e.g., intro at top, contact at bottom), and navigation is intuitive via anchor links.
@@ -62,7 +57,12 @@ The design follows principles of user experience (UX) design, accessibility, and
 ### Accessibility
 The site meets accessibility guidelines (1.2): High contrast between foreground and background colors, alt text for all non-text elements (e.g., images in portfolio), and user control over actions (no auto-popups or autoplay). Graphics are consistent in style and color (1.5), and the design avoids distracting backgrounds (1.4). Flow of information and interaction feedback are clear and unambiguous (M(i)).
 
-## Wireframes and Mockups
+## 🖼️ Wireframes & Mockups
+The design phase involved creating wireframes to plan the information hierarchy and user flow. These sketches ensured that headers were placed strategically and navigation remained intuitive across all screen sizes.
+
+![Project Wireframe](assets/images/wireframe.png)
+*Figure 1: Initial wireframe design for the Awesome-Design portfolio.*
+
 
 
 ## About the Project
@@ -223,6 +223,11 @@ Manual testing procedures were designed and implemented to assess functionality,
 - **Cross-Browser**: Tested on Chrome, Firefox, Edge— consistent behavior.
 
 The development lifecycle is fully documented , with evaluation of bugs and fixes.
+
+
+## 📜 Credits & Attribution
+* **External Assets:** Icons from Font Awesome, Fonts from Google Fonts.
+* **Attribution:** All code from external libraries or tutorials is attributed via comments above the code segments.
 
 ## Contact
 
