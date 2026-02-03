@@ -244,6 +244,21 @@ The development lifecycle is fully documented , with evaluation of bugs and fixe
 ## 📜 Credits & Attribution
 * **External Assets:** Icons from Font Awesome, Fonts from Google Fonts.
 * **Attribution:** All code from external libraries or tutorials is attributed via comments above the code segments.
+---
+
+## 🤝 Acknowledgments
+
+I would like to express my gratitude to the following platforms and resources that played a vital role in the realization of this project:
+
+* **[Figma](https://www.figma.com/)** - For providing the professional design environment used to create the project's wireframes and UI prototypes.
+* **[Neocities](https://neocities.org/)** - For offering a reliable and accessible hosting platform to bring this design to the web.
+* **[Shots.so](https://shots.so/)** - For the high-quality device mockups used to showcase the responsive nature of the website.
+* **[Google Fonts](https://fonts.google.com/)** - For the typography that helps define the modern aesthetic of the interface.
+* **[GitHub](https://github.com/)** - For providing the version control and collaboration tools essential for managing the codebase.
+
+Special thanks to the open-source community for the constant inspiration and the various UI/UX design libraries that guided the visual direction of **Awesome Design**.
+
+---
 
 ## Contact
 
