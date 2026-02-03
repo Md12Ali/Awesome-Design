@@ -57,10 +57,17 @@ The design follows principles of user experience (UX) design, accessibility, and
 ### Accessibility
 The site meets accessibility guidelines (1.2): High contrast between foreground and background colors, alt text for all non-text elements (e.g., images in portfolio), and user control over actions (no auto-popups or autoplay). Graphics are consistent in style and color (1.5), and the design avoids distracting backgrounds (1.4). Flow of information and interaction feedback are clear and unambiguous (M(i)).
 
-## 🖼️ Wireframes & Mockups
-The design phase involved creating wireframes to plan the information hierarchy and user flow. These sketches ensured that headers were placed strategically and navigation remained intuitive across all screen sizes.
+---
 
-![Project Wireframe](assets/images/wireframe.png)
+## 🎨 Design Process: Wireframes & Mockups
+
+Before moving to the final UI, I structured the layout using wireframes to ensure a clean and responsive design.
+
+| Desktop View | Mobile View |
+| :--- | :--- |
+| ![Desktop Wireframe](https://via.placeholder.com/400x250) | ![Mobile Wireframe](https://via.placeholder.com/150x250) |
+
+> **Note:** These wireframes represent the initial skeleton of [Ali Design](https://ali-design.neocities.org/).
 
 
 
