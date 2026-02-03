@@ -1,7 +1,7 @@
 # Portfolio
 **Live Site:** [Visit My Portfolio](https://ali-design.neocities.org/)
 
-![image alt] (https://github.com/Md12Ali/Awesome-Design/blob/fdf5734fabeae8293a7a60f00e02f2c21d448fc6/Screenshot_3-2-2026_16559_ali-design.neocities.org.jpeg)
+![image alt](https://raw.githubusercontent.com/Md12Ali/Awesome-Design/fdf5734fabeae8293a7a60f00e02f2c21d448fc6/Screenshot_3-2-2026_16559_ali-design.neocities.org.jpeg)
 ---
 ## 📖 Project Rationale
 This portfolio website is designed as a real-world application to showcase expertise in web design and front-end development. 
