@@ -120,10 +120,6 @@ This ensures WCAG compliance, with no distractions from backgrounds and consiste
 ## 🧪 Manual Testing Report
 The following testing procedures were designed and implemented.
 
-### 🧪 Manual Testing Report
-
-### 🧪 Manual Testing Report
-
 #### 1. Functional Testing
 | Feature | Expected Outcome | Result |
 | :--- | :--- | :--- |
