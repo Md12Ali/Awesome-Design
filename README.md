@@ -1,21 +1,56 @@
-## Project Rationale
+# 🚀 Awesome-Design: Professional Portfolio
+**[span_0](start_span)Live Site:** [Visit My Portfolio](https://ali-design.neocities.org/)[span_0](end_span)
 
-This portfolio website is designed to showcase my expertise as a web designer and front-end developer, providing a platform to highlight my skills, services, and projects. It addresses real-world needs by offering potential clients and employers an intuitive, accessible interface to explore my background and capabilities. The value it provides includes easy access to contact information, demonstration of responsive design principles, and evidence of compliance with web standards, ultimately facilitating professional opportunities and collaborations. The project has a clear, well-defined purpose: to make a positive impact on clients, co-workers, and the internet by designing compelling and attractive websites.
+---
 
-## Target Audience
+## 📖 Project Rationale
+[span_1](start_span)This portfolio website is designed as a real-world application to showcase expertise in web design and front-end development[span_1](end_span). 
+* **[span_2](start_span)Purpose:** To provide potential clients and employers an intuitive, accessible interface to explore my professional background and project capabilities[span_2](end_span).
+* **[span_3](start_span)Justification:** A single-page scrolling architecture was chosen to ensure a "Flow of Information" that minimizes user clicks and keeps the experience unambiguous[span_3](end_span).
+* **[span_4](start_span)Target Audience:** Potential clients, tech recruiters, and web development collaborators[span_4](end_span).
 
-The primary users are potential clients (e.g., business owners seeking web design services), employers in the web development industry, and collaborators (e.g., creative agencies). Their needs include:
+## 👥 User Stories
+[span_5](start_span)The application is built to provide a solution to the following user demands[span_5](end_span):
+* **[span_6](start_span)[span_7](start_span)As a new visitor:** I want the site's purpose to be immediately evident so I don't need supporting documentation[span_6](end_span)[span_7](end_span).
+* **[span_8](start_span)As an employer:** I want to see clear examples of past work and services to evaluate technical skills[span_8](end_span).
+* **[span_9](start_span)As a mobile user:** I want a responsive layout that maintains structural integrity across all device sizes[span_9](end_span).
+* **[span_10](start_span)As an accessibility-dependent user:** I want high-contrast text and descriptive alt-tags for all images[span_10](end_span).
 
-### User Stories
-- As a potential client, I want to view the designer's background and expertise so that I can assess their suitability for my project.
-- As an employer, I want to see examples of past work and services offered to evaluate skills and creativity.
-- As a visitor on any device, I want a responsive layout to browse comfortably without usability issues.
-- As a user with accessibility needs, I want high contrast and alt text for images to ensure inclusivity.
-- As a collaborator, I want easy contact options to initiate discussions quickly.
+## 🎨 UX & Design Documentation
+### Design Principles
+* **[span_11](start_span)[span_12](start_span)Information Hierarchy:** Headers (H1-H6) are used strictly to convey structure, making each section easy to find based on priority[span_11](end_span)[span_12](end_span).
+* **[span_13](start_span)[span_14](start_span)Accessibility:** Meets guidelines for contrast between background and foreground colors to cater to the visually impaired[span_13](end_span)[span_14](end_span).
+* **[span_15](start_span)[span_16](start_span)User Control:** The site avoids aggressive pop-ups and autoplay of media; users initiate all actions[span_15](end_span)[span_16](end_span).
+* **[span_17](start_span)[span_18](start_span)Consistency:** Graphics and interactivity are consistent across all sections to maintain a professional-grade UI[span_17](end_span)[span_18](end_span).
 
-The site's purpose is immediately evident without supporting documentation, aligning with merit criteria M(ii).
+## 🛠️ Tech Stack & Development
+* **[span_19](start_span)[span_20](start_span)Frontend:** HTML5 (Semantic Markup), CSS3 (Custom Styles), Bootstrap 5 (Responsive Grid)[span_19](end_span)[span_20](end_span).
+* **[span_21](start_span)[span_22](start_span)Validation:** * HTML passed through the official **W3C Validator**[span_21](end_span)[span_22](end_span).
+  * [span_23](start_span)[span_24](start_span)CSS passed through the official **Jigsaw Validator**[span_23](end_span)[span_24](end_span).
+* **[span_25](start_span)[span_26](start_span)Maintainability:** Code is organized into well-defined, commented sections with external CSS files linked in the HEAD element[span_25](end_span)[span_26](end_span).
 
-## UX Design Documentation
+## 🧪 Testing & Bug Evaluation 
+[span_27](start_span)Manual testing procedures were implemented to assess functionality and responsiveness[span_27](end_span).
+
+| Feature | Action | Result |
+| :--- | :--- | :--- |
+| **Responsiveness** | Checked on Mobile, Tablet, and Desktop resolutions | **[span_28](start_span)Pass**[span_28](end_span) |
+| **Link Integrity** | Verified all internal and external links (open in new tab) | **[span_29](start_span)[span_30](start_span)Pass**[span_29](end_span)[span_30](end_span) |
+| **Form Validation** | Ensured contact form handles user inputs correctly | **[span_31](start_span)Pass**[span_31](end_span) |
+
+### Bug Fixes & Evaluation
+* **[span_32](start_span)Fixed:** Resolved a navbar overlap issue on small screens using CSS Media Queries[span_32](end_span).
+* **[span_33](start_span)Fixed:** Corrected image pixelation by using higher-resolution assets[span_33](end_span).
+* **[span_34](start_span)[span_35](start_span)Status:** No obvious errors remain; the code is considered robust and publishable[span_34](end_span)[span_35](end_span).
+
+## 🚀 Deployment
+[span_36](start_span)The project is deployed to a cloud-based hosting platform and tested to ensure it matches the development version[span_36](end_span).
+* **[span_37](start_span)[span_38](start_span)Version Control:** Git & GitHub were used throughout with descriptive commit messages for each feature[span_37](end_span)[span_38](end_span).
+
+## 📜 Credits & Attribution 
+* **[span_39](start_span)External Assets:** Icons from Font Awesome, Fonts from Google Fonts[span_39](end_span).
+* **[span_40](start_span)[span_41](start_span)Attribution:** All code from external libraries or tutorials is attributed via comments above the code segments[span_40](end_span)[span_41](end_span).
+
 
 ### Design Process
 The design follows principles of user experience (UX) design, accessibility, and responsiveness as per LO1. Wireframes were sketched in Photoshop to plan the structure, starting with a main navigation menu and single-scrolling page divided into sections (Intro, About, Services, Portfolio, Contact). Information hierarchy was prioritized: headers convey structure (e.g., H1 for section titles), content is categorized by priority (e.g., intro at top, contact at bottom), and navigation is intuitive via anchor links.
@@ -115,19 +150,19 @@ During the development life cycle, the following issues were identified and reso
    * Fix: Added rel="noopener" and target="_blank" attributes to the anchor tag.
 
 ## Design and Development Process
-### Design Phase (Meeting LO1)
+### Design Phase 
 The design incorporates a main navigation menu, structured layout, and accessibility guidelines (e.g., high contrast, alt text for images). Information is organized by priority with clear headers. Wireframes were sketched in Photoshop to plan user flow, ensuring unambiguous interaction and user control over actions.
 
-### Development Phase (Meeting LO2)
+### Development Phase
 Implemented a multi-page site with custom HTML and CSS, validated via W3C and Jigsaw (no issues). Used semantic markup, media queries for responsiveness, and ensured images are high-resolution without pixelation. Navigation is intuitive, with external links opening in new tabs.
 
-### Maintainability (Meeting LO3)
+### Maintainability 
 Code is structured with comments, external CSS files linked in <head>, and files organized in directories (e.g., assets/css, assets/images). README explains purpose and deployment. External code is attributed via comments and this file.
 
-### Version Control (Meeting LO4)
+### Version Control
 Used GitHub for version control, with frequent commits for each feature (e.g., "Add responsive navbar", "Fix contact form validation"). Commit messages are descriptive and small.
 
-### Testing and Deployment (Meeting LO5)
+### Testing and Deployment
 Manual tests assessed functionality (e.g., form submission), usability (e.g., navigation on mobile), and responsiveness (e.g., across screen sizes). Bugs like misaligned elements were fixed; no unfixed issues remain. Documented below. Deployed to Neocities; matches local version with no broken links.
 
 #### Testing Documentation
