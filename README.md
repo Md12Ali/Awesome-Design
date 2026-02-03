@@ -1,4 +1,4 @@
-# Professional Portfolio
+# Portfolio
 **Live Site:** [Visit My Portfolio](https://ali-design.neocities.org/)
 
 ---
