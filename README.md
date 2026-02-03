@@ -61,15 +61,21 @@ The site meets accessibility guidelines (1.2): High contrast between foreground 
 
 ## 🎨 Design Process: Wireframes & Mockups
 
-Before moving to the final UI, I structured the layout using wireframes to ensure a clean and responsive design.
+Before coding, I mapped out the user journey. The goal was to prioritize content hierarchy and ease of navigation.
 
-| Desktop View | Mobile View |
+| Concept Sketch (Wireframe) | Final High-Fidelity UI |
 | :--- | :--- |
-| ![Desktop Wireframe](https://via.placeholder.com/400x250) | ![Mobile Wireframe](https://via.placeholder.com/150x250) |
+| ![Wireframe](https://via.placeholder.com/400x250?text=Your+Wireframe+Image) | ![Mockup](https://via.placeholder.com/400x250?text=Your+Mockup+Image) |
 
-> **Note:** These wireframes represent the initial skeleton of [Ali Design](https://ali-design.neocities.org/).
+## ✨ Key Features
+- **Responsive Architecture:** Seamless experience across Mobile, Tablet, and Desktop.
+- **Glassmorphic UI:** Modern frosted-glass components for a premium feel.
+- **Performance Optimized:** Clean HTML/CSS for lightning-fast load times.
 
-
+## 🛠️ Tech Stack
+- **Languages:** HTML5, CSS3
+- **Design:** Figma, Shots.so
+- **Hosting:** Neocities
 
 
 ## About the Project
