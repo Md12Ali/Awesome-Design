@@ -1,48 +1,34 @@
-# Awesome Design Portfolio
+## Project Rationale
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Md12Ali/Awesome-Design)](https://github.com/Md12Ali/Awesome-Design/commits/main)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Md12Ali/Awesome-Design)](https://github.com/Md12Ali/Awesome-Design/commits/main)
-[![GitHub repo size](https://img.shields.io/github/repo-size/Md12Ali/Awesome-Design)](https://github.com/Md12Ali/Awesome-Design)
+This portfolio website is designed to showcase my expertise as a web designer and front-end developer, providing a platform to highlight my skills, services, and projects. It addresses real-world needs by offering potential clients and employers an intuitive, accessible interface to explore my background and capabilities. The value it provides includes easy access to contact information, demonstration of responsive design principles, and evidence of compliance with web standards, ultimately facilitating professional opportunities and collaborations. The project has a clear, well-defined purpose: to make a positive impact on clients, co-workers, and the internet by designing compelling and attractive websites.
 
-A creative web design portfolio showcasing unique, clean, and functional interfaces built with user-centric principles.
+## Target Audience
 
-## Project Rationale and Purpose
+The primary users are potential clients (e.g., business owners seeking web design services), employers in the web development industry, and collaborators (e.g., creative agencies). Their needs include:
 
-This portfolio website serves as a showcase for my web design skills, targeting potential clients, employers, and collaborators in the web development industry. It addresses the needs of users seeking professional web design services by providing an intuitive platform to explore my background, services, and past projects. The site is designed for a diverse audience, including business owners needing responsive websites and creative agencies looking for freelance designers.
+### User Stories
+- As a potential client, I want to view the designer's background and expertise so that I can assess their suitability for my project.
+- As an employer, I want to see examples of past work and services offered to evaluate skills and creativity.
+- As a visitor on any device, I want a responsive layout to browse comfortably without usability issues.
+- As a user with accessibility needs, I want high contrast and alt text for images to ensure inclusivity.
+- As a collaborator, I want easy contact options to initiate discussions quickly.
 
-User Stories:
-- As a potential client, I want to view the designer's about section so I can understand their background and expertise.
-- As a visitor, I want a responsive layout so I can browse comfortably on any device.
-- As an employer, I want to see project examples so I can evaluate the quality of work.
-- As a user, I want easy navigation and contact options to reach out quickly.
+The site's purpose is immediately evident without supporting documentation, aligning with merit criteria M(ii).
 
-The project aligns with real-world needs by using site-specific content rather than placeholders, ensuring immediate evident purpose without external documentation.
+## UX Design Documentation
 
-## Visuals
+### Design Process
+The design follows principles of user experience (UX) design, accessibility, and responsiveness as per LO1. Wireframes were sketched in Photoshop to plan the structure, starting with a main navigation menu and single-scrolling page divided into sections (Intro, About, Services, Portfolio, Contact). Information hierarchy was prioritized: headers convey structure (e.g., H1 for section titles), content is categorized by priority (e.g., intro at top, contact at bottom), and navigation is intuitive via anchor links.
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Project+Banner) <!-- Replace with actual banner image path once uploaded, e.g., ./images/banner.png -->
+- **Information Hierarchy**: Sections are organized logically—introductory content first, followed by about, services, projects, and contact. Headers use semantic markup to denote importance, ensuring information is easy to find and presented in an organized fashion.
+- **Typography**: Primary font is Arial, Helvetica, sans-serif for body text (readable and modern). Headings use bold variations (font-weight: 700) for emphasis and hierarchy.
+- **Color Palette**: A simple, high-contrast scheme for accessibility—Background: #FFFFFF (White), Text: #000000 (Black), Accents/Links: #007BFF (Blue), Dividers: #6C757D (Gray), Highlights: #198754 (Green). This ensures no distractions from backgrounds and meets guidelines (e.g., contrast ratios compliant with WCAG).
 
-**Screenshots**
+### Accessibility
+The site meets accessibility guidelines (1.2): High contrast between foreground and background colors, alt text for all non-text elements (e.g., images in portfolio), and user control over actions (no auto-popups or autoplay). Graphics are consistent in style and color (1.5), and the design avoids distracting backgrounds (1.4). Flow of information and interaction feedback are clear and unambiguous (M(i)).
 
-To resolve the image display issue in the README, ensure that all referenced images are uploaded to an `images` folder in the repository root. Use relative paths like `./images/screenshot-home.png`. If images are not showing, check the file paths, ensure they are committed to GitHub, and verify case sensitivity (use lowercase filenames). Here's how the screenshots can be placed:
+## Wireframes and Mockups
 
-![Recent Projects Section](./images/recent-projects.png)  
-*Caption: Overview of recent projects showcasing various designs.*
-
-![Services Section](./images/services.png)  
-*Caption: Services offered, with icons and descriptions for clarity.*
-
-![Hero/About Section](./images/hero-section.png)  
-*Caption: Introductory hero section highlighting my role as a designer and front-end developer.*
-
-![Unit Specification Page 27](./images/unit-spec-27.png)  
-*Caption: Assessment criteria for Learning Outcome 1.*
-
-![Unit Specification Page 28](./images/unit-spec-28.png)  
-*Caption: Assessment criteria for Learning Outcomes 2 and 3.*
-
-![Unit Specification Page 29](./images/unit-spec-29.png)  
-*Caption: Assessment criteria for Learning Outcomes 3-5.*
 
 ## About the Project
 
@@ -146,6 +132,32 @@ No dependencies required.
 - Bootstrap documentation: [getbootstrap.com](https://getbootstrap.com/)
 - Icons from Font Awesome (attributed in code).
 - All external code/libraries attributed in source files.
+
+- ## Data Collection & AI Attribution
+
+Gemini AI and Microsoft Copilot were used for data collection (e.g., researching best practices) and refining technical documentation. All AI-assisted content is attributed here, with custom code distinguished from external sources.
+
+## Code Attribution
+
+- Bootstrap 5: Used for responsive grid and components; attributed in code comments and README (3.3, 3.4).
+- Font Awesome: For icons in services section; credited in HTML comments.
+- All custom HTML/CSS/JS is original; external tutorials (e.g., for media queries) are commented above relevant code sections.
+
+Code is organized with comments (3.5), CSS in external files linked in <head> (3.6), and files named descriptively without spaces/caps (3.8). Directories: `./assets/` for images/CSS (3.9).
+
+## Testing Procedure
+
+Manual testing procedures were designed and implemented to assess functionality, usability, and responsiveness (5.1, LO5). Testing is documented below .
+
+- **Functionality**: Tested navigation links, form submissions, and external links— all operational; no broken internal links .
+- **Usability**: Simulated user journeys on desktop/mobile; intuitive flow confirmed, with clear feedback (e.g., hover states on links).
+- **Responsiveness**: Used browser dev tools to check layouts on various screen sizes (mobile, tablet, desktop)— adapts without issues.
+- **Accessibility**: WAVE tool confirmed alt text and contrast compliance.
+- **Validation**: HTML passed W3C validator (2.3); CSS passed Jigsaw validator (2.2)— no issues.
+- **Bugs Found/Fixed**: Initial mobile navbar overlap fixed via media queries; form validation added for empty fields. No unfixed bugs remain.
+- **Cross-Browser**: Tested on Chrome, Firefox, Edge— consistent behavior.
+
+The development lifecycle is fully documented , with evaluation of bugs and fixes.
 
 ## Contact
 
