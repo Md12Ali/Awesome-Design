@@ -118,6 +118,7 @@ A simple palette for contrast and accessibility:
 
 This ensures WCAG compliance, with no distractions from backgrounds and consistent graphics.
 ## 🧪 Manual Testing Report
+
 The following testing procedures were designed and implemented.
 
 #### 1. Functional Testing
