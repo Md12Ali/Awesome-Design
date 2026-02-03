@@ -1,20 +1,48 @@
-# Mohammed's Portfolio
+# Awesome Design Portfolio
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/yourusername/your-repo)](https://github.com/yourusername/your-repo/commits/main)
-[![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/your-repo)](https://github.com/yourusername/your-repo/commits/main)
-[![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/your-repo)](https://github.com/yourusername/your-repo)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Md12Ali/Awesome-Design)](https://github.com/Md12Ali/Awesome-Design/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Md12Ali/Awesome-Design)](https://github.com/Md12Ali/Awesome-Design/commits/main)
+[![GitHub repo size](https://img.shields.io/github/repo-size/Md12Ali/Awesome-Design)](https://github.com/Md12Ali/Awesome-Design)
 
-A creative web design portfolio showcasing unique, clean, and functional interfaces.
+A creative web design portfolio showcasing unique, clean, and functional interfaces built with user-centric principles.
+
+## Project Rationale and Purpose
+
+This portfolio website serves as a showcase for my web design skills, targeting potential clients, employers, and collaborators in the web development industry. It addresses the needs of users seeking professional web design services by providing an intuitive platform to explore my background, services, and past projects. The site is designed for a diverse audience, including business owners needing responsive websites and creative agencies looking for freelance designers.
+
+User Stories:
+- As a potential client, I want to view the designer's about section so I can understand their background and expertise.
+- As a visitor, I want a responsive layout so I can browse comfortably on any device.
+- As an employer, I want to see project examples so I can evaluate the quality of work.
+- As a user, I want easy navigation and contact options to reach out quickly.
+
+The project aligns with real-world needs by using site-specific content rather than placeholders, ensuring immediate evident purpose without external documentation.
 
 ## Visuals
 
-![Project Banner](./images/banner.png)
+![Project Banner](https://via.placeholder.com/1200x400?text=Project+Banner) <!-- Replace with actual banner image path once uploaded, e.g., ./images/banner.png -->
 
 **Screenshots**
 
-![Homepage Screenshot](./images/screenshot-home.png)  
-![About Section Screenshot](./images/screenshot-about.png)  
-![Portfolio Gallery Screenshot](./images/screenshot-portfolio.png)
+To resolve the image display issue in the README, ensure that all referenced images are uploaded to an `images` folder in the repository root. Use relative paths like `./images/screenshot-home.png`. If images are not showing, check the file paths, ensure they are committed to GitHub, and verify case sensitivity (use lowercase filenames). Here's how the screenshots can be placed:
+
+![Recent Projects Section](./images/recent-projects.png)  
+*Caption: Overview of recent projects showcasing various designs.*
+
+![Services Section](./images/services.png)  
+*Caption: Services offered, with icons and descriptions for clarity.*
+
+![Hero/About Section](./images/hero-section.png)  
+*Caption: Introductory hero section highlighting my role as a designer and front-end developer.*
+
+![Unit Specification Page 27](./images/unit-spec-27.png)  
+*Caption: Assessment criteria for Learning Outcome 1.*
+
+![Unit Specification Page 28](./images/unit-spec-28.png)  
+*Caption: Assessment criteria for Learning Outcomes 2 and 3.*
+
+![Unit Specification Page 29](./images/unit-spec-29.png)  
+*Caption: Assessment criteria for Learning Outcomes 3-5.*
 
 ## About the Project
 
@@ -23,6 +51,8 @@ Hey there! Welcome to my online portfolio. My name is Mohammed Ali, a Web Design
 I like to push the boundaries. I love creating unique, clean, usable design for the web and other digital sources. I build clean, appealing, and functional interfaces which comply with the latest web standards.
 
 I design with Photoshop, Illustrator, and Dreamweaver. I use code sites with XHTML, HTML5, CSS, CSS3, JavaScript, and PHP. Also, I can make dynamic websites with WordPress if required.
+
+This project was developed as part of the "User Centric Front End Development" unit (Level 5, Unit Number: Y/650/3525), aiming to build a responsive front-end web application while adhering to principles of UX design, accessibility, and maintainability.
 
 ## Tech Stack
 
@@ -36,93 +66,92 @@ Built using modern web technologies for a responsive and engaging user experienc
 | [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 | [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/) |
 
-
-**Live Link:** [View My Portfolio](https://ali-design.neocities.org/)
+**Design Tools:**
+[![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)](https://www.adobe.com/products/photoshop.html)
+[![Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)](https://www.adobe.com/products/illustrator.html)
+[![Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF00FF?style=for-the-badge&logo=adobedreamweaver&logoColor=white)](https://www.adobe.com/products/dreamweaver.html)
 
 ## Features
 
-- **Responsive Design**: Adapts seamlessly to desktops, tablets, and mobile devices for an optimal viewing experience.
-- **Portfolio Gallery**: Showcases recent projects with images and descriptions (currently placeholders for upcoming work).
-- **Contact Form**: Easy way for visitors to get in touch via email or phone.
-- **Anchor Navigation**: Smooth scrolling to sections like About, Services, and Portfolio.
-- **Clean Interfaces**: Emphasizes usability and compliance with web standards for a professional look.
-
----
+- **Responsive Design**: Utilizes Bootstrap and media queries to adapt seamlessly to desktops, tablets, and mobile devices.
+- **Portfolio Gallery**: Displays recent projects with images and descriptions, using semantic HTML for structure.
+- **Contact Form**: Allows visitors to submit inquiries, with validation for user input.
+- **Anchor Navigation**: Smooth scrolling to sections like About, Services, and Portfolio for intuitive user flow.
+- **Clean Interfaces**: Emphasizes usability with consistent styles, accessibility features (e.g., alt text, contrast ratios), and no distracting elements.
 
 ## Design System
 
-To ensure a consistent visual experience, the following design elements were used:
+### Typography
 
-* **Colors:**
-    * Primary: ![#212529](https://via.placeholder.com/15/212529/000000?text=+) `#212529` (Deep Charcoal)
-    * Accent: ![#f8f9fa](https://via.placeholder.com/15/f8f9fa/000000?text=+) `#f8f9fa` (Light Grey/White)
-      
-* **Typography:**
-The site uses a clean sans-serif font stack for readability and modernity:
-- Primary Font: Arial, Helvetica, sans-serif (body text).
-- Headings: Bold variations for emphasis.
-
--
-### **Design Tools**
-![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-![Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
-![Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF00FF?style=for-the-badge&logo=adobedreamweaver&logoColor=white)
-
-## 📂 Project Showcase
-
-| Project Name | Category |
-| :--- | :--- |
-| **AU Welfare Trust** | Web Development |
-| **Global Warming** | Greenpeace Awareness |
-| **Grimm Fairy Tales** | Creative Design |
-| **Meet-Up Invite** | UI/UX Design |
-
----
+- Primary Font: Arial, Helvetica, sans-serif (body text for readability).
+- Headings: Bold variations (e.g., font-weight: 700) for emphasis and hierarchy.
 
 ### Colors
 
-A simple yet effective palette focusing on contrast and usability:
+A simple palette for contrast and accessibility:
 - Background: #FFFFFF (White)
 - Text: #000000 (Black)
 - Accents/Links: #007BFF (Blue)
 - Dividers: #6C757D (Gray)
-- Highlights: #198754 (Green for success elements)
+- Highlights: #198754 (Green)
 
-This palette ensures accessibility while maintaining a professional, creative vibe.
+This ensures WCAG compliance, with no distractions from backgrounds and consistent graphics.
 
----
+## Design and Development Process
+
+### Design Phase (Meeting LO1)
+The design incorporates a main navigation menu, structured layout, and accessibility guidelines (e.g., high contrast, alt text for images). Information is organized by priority with clear headers. Wireframes were sketched in Photoshop to plan user flow, ensuring unambiguous interaction and user control over actions.
+
+### Development Phase (Meeting LO2)
+Implemented a multi-page site with custom HTML and CSS, validated via W3C and Jigsaw (no issues). Used semantic markup, media queries for responsiveness, and ensured images are high-resolution without pixelation. Navigation is intuitive, with external links opening in new tabs.
+
+### Maintainability (Meeting LO3)
+Code is structured with comments, external CSS files linked in <head>, and files organized in directories (e.g., assets/css, assets/images). README explains purpose and deployment. External code is attributed via comments and this file.
+
+### Version Control (Meeting LO4)
+Used GitHub for version control, with frequent commits for each feature (e.g., "Add responsive navbar", "Fix contact form validation"). Commit messages are descriptive and small.
+
+### Testing and Deployment (Meeting LO5)
+Manual tests assessed functionality (e.g., form submission), usability (e.g., navigation on mobile), and responsiveness (e.g., across screen sizes). Bugs like misaligned elements were fixed; no unfixed issues remain. Documented below. Deployed to Neocities; matches local version with no broken links.
+
+#### Testing Documentation
+- **Functionality**: Tested links, forms, and navigation – all work as expected.
+- **Usability**: User feedback simulation ensured intuitive flow; no confusion in sections.
+- **Responsiveness**: Checked on Chrome DevTools for mobile/tablet/desktop – layouts adapt without integrity loss.
+- **Accessibility**: Ran WAVE tool; ensured alt text and contrast.
+- **Bugs Found/Fixed**: Initial navbar overlap on mobile fixed with media queries. No remaining bugs.
+- **Validation**: HTML/CSS passed validators; no errors.
 
 ## Live Demo
 
-Explore the live version of the portfolio:
-
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-brightgreen?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ali-design.neocities.org/)
 
----
+## Installation
 
-## 🚀 Installation & Setup
+1. Clone the repository:
+   ```
+   git clone https://github.com/Md12Ali/Awesome-Design.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd Awesome-Design
+   ```
+3. Open `index.html` in your web browser.
 
-If you'd like to run this project locally, follow these steps:
+No dependencies required.
 
-1. **Clone the repository:**
-    ```bash
-    git clone [https://github.com/Md12Ali/Awesome-Design/edit/main/README.md]
-    ```
-2. **Navigate to the project folder:**
-    ```bash
-    cd portfolio-project
-    ```
-3. **Open the site:**
-    Simply open the `index.html` file in your preferred browser.
+## References and Acknowledgments
 
----
+- Used Gemini AI to research Microsoft Copilot for data collection and inspiration on AI-assisted design workflows.
+- Bootstrap documentation: [getbootstrap.com](https://getbootstrap.com/)
+- Icons from Font Awesome (attributed in code).
+- All external code/libraries attributed in source files.
 
-## 📬 Let's Get In Touch!
+## Contact
 
-Ready to start your next project with me?
+- **Email**: Md077Ali@gmail.com
+- **Phone**: +44 7476 283894
+- **GitHub**: [Md12Ali](https://github.com/Md12Ali)
+- **Location**: East London, UK
 
-* **Phone:** [+44 7476 283894](tel:+447476283894)
-* **Email:** [Md077Ali@gmail.com](mailto:Md077Ali@gmail.com)
-* **Location:** East London, UK
-
-Copyright © 2021 - Mohammed Ali
+Copyright © 2026 - Mohammed Ali
