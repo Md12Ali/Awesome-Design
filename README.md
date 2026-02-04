@@ -61,22 +61,8 @@ The site meets accessibility guidelines (1.2): High contrast between foreground 
 ---
 
 ## 🎨 Design Process: Wireframes & Mockups
-Brighton MET ( Code Institute), [2/4/2026 2:02 AM]
-Generate a professional, high-resolution wireframe for a GitHub README file based on the attached website screenshots.
-Analyze the uploaded images and structure the wireframe sequentially to effectively showcase the website's key features, user interface, and functionality.
-The layout must include:
-A prominent 'Hero' section placeholder derived from the main screenshot.
-Feature highlights organized into clear, modular sections.
-Logical flow that guides the viewer through the portfolio or project.
-A clean, minimalist, and developer-friendly aesthetic suitable for a README file.
-Ensure the output is a clear, scalable design that can serve as a direct visual guide for the project's documentation."
-
-Brighton MET ( Code Institute), [2/4/2026 2:52 AM]
-# 🌐 UI/UX Project Documentation: Ali-Design
-
-This repository contains the wireframe and mockup documentation for the Ali-Design website. This project focuses on a minimalist, service-oriented portfolio layout.
-
----
+![image alt](<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/448d5722-6e8f-41f5-ad99-a09bdc175b2f" />
+)
 
 ## 🏗️ 1. Information Architecture
 The website follows a high-conversion, single-page scrolling architecture:
@@ -133,15 +119,9 @@ The structural layout is designed for maximum readability and user engagement.
 - **Hosting:** Neocities
 
 
-## About the Project
+## 📎 Reference
+Website analyzed: [Ali-Design Portfolio](https://ali-design.neocities.org/#page-top)
 
-Hey there! Welcome to my online portfolio. My name is Mohammed Ali, a Web Designer based in East London who recently finished a year-long course on Web Standards.
-
-I like to push the boundaries. I love creating unique, clean, usable design for the web and other digital sources. I build clean, appealing, and functional interfaces which comply with the latest web standards.
-
-I design with Photoshop, Illustrator, and Dreamweaver. I use code sites with XHTML, HTML5, CSS, CSS3, JavaScript, and PHP. Also, I can make dynamic websites with WordPress if required.
-
-This project was developed as part of the "User Centric Front End Development" unit (Level 5, Unit Number: Y/650/3525), aiming to build a responsive front-end web application while adhering to principles of UX design, accessibility, and maintainability.
 
 ## Tech Stack
 
