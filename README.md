@@ -136,12 +136,11 @@ Built using modern web technologies for a responsive and engaging user experienc
 | [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) |
 | [![Bootstrap 5](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/) |
 | [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-| [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/) |
+
 
 **Design Tools:**
 [![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)](https://www.adobe.com/products/photoshop.html)
 [![Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)](https://www.adobe.com/products/illustrator.html)
-[![Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF00FF?style=for-the-badge&logo=adobedreamweaver&logoColor=white)](https://www.adobe.com/products/dreamweaver.html)
 
 ## Features
 
@@ -151,7 +150,6 @@ Built using modern web technologies for a responsive and engaging user experienc
 - **Anchor Navigation**: Smooth scrolling to sections like About, Services, and Portfolio for intuitive user flow.
 - **Clean Interfaces**: Emphasizes usability with consistent styles, accessibility features (e.g., alt text, contrast ratios), and no distracting elements.
 
-## Design System
 
 ### Typography
 
@@ -288,7 +286,6 @@ The development lifecycle is fully documented , with evaluation of bugs and fixe
 
 I would like to express my gratitude to the following platforms and resources that played a vital role in the realization of this project:
 
-* **[Figma](https://www.figma.com/)** - For providing the professional design environment used to create the project's wireframes and UI prototypes.
 * **[Neocities](https://neocities.org/)** - For offering a reliable and accessible hosting platform to bring this design to the web.
 * **[Shots.so](https://shots.so/)** - For the high-quality device mockups used to showcase the responsive nature of the website.
 * **[Google Fonts](https://fonts.google.com/)** - For the typography that helps define the modern aesthetic of the interface.
