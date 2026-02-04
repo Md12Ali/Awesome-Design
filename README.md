@@ -1,7 +1,7 @@
 # Portfolio
 **Live Site:** [Visit My Portfolio](https://ali-design.neocities.org/)
 
-![image alt](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/101.png?raw=true) and ![image alt](https://github.com/Md12Ali/Awesome-Design/blob/eee8377c1fc86cef5bcd55c75478f3e017c86142/Portfolio/img/w2.png)  
+![image alt](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/101.png?raw=true) 
 ---
 ## 📖 Project Rationale
 This portfolio website is designed as a real-world application to showcase expertise in web design and front-end development. 
@@ -61,7 +61,7 @@ The site meets accessibility guidelines (1.2): High contrast between foreground 
 ---
 
 ## 🎨 Design Process: Wireframes & Mockups
-![image alt](https://github.com/Md12Ali/Awesome-Design/blob/1a1f0a8b2d835c54b767fd06de46230212736257/Portfolio/img/w.png)
+![image alt](https://github.com/Md12Ali/Awesome-Design/blob/1a1f0a8b2d835c54b767fd06de46230212736257/Portfolio/img/w.png) and ![image alt](https://github.com/Md12Ali/Awesome-Design/blob/eee8377c1fc86cef5bcd55c75478f3e017c86142/Portfolio/img/w3.png)  
 
 ## 🏗️ 1. Information Architecture
 The website follows a high-conversion, single-page scrolling architecture:
