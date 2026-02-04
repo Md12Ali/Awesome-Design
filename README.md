@@ -61,8 +61,7 @@ The site meets accessibility guidelines (1.2): High contrast between foreground 
 ---
 
 ## 🎨 Design Process: Wireframes & Mockups
-![image alt](<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/448d5722-6e8f-41f5-ad99-a09bdc175b2f" />
-)
+![image alt](https://github.com/Md12Ali/Awesome-Design/blob/1a1f0a8b2d835c54b767fd06de46230212736257/Portfolio/img/w.png)
 
 ## 🏗️ 1. Information Architecture
 The website follows a high-conversion, single-page scrolling architecture:
