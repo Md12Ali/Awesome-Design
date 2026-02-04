@@ -66,7 +66,7 @@ Before coding, I mapped out the user journey. The goal was to prioritize content
 
 | Concept Sketch (Wireframe) | Final High-Fidelity UI |
 | :--- | :--- |
-| ![Wireframe](https://github.com/Md12Ali/Awesome-Design/blob/main/screenshot-1770139713232.png?raw=true" width="400" height="250" alt="Wireframe) | ![Mockup](https://via.placeholder.com/400x250?text=Your+Mockup+Image) |
+| ![Wireframe](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/Scrach.png?raw=true width="500" height="650" alt="Wireframe) | ![Mockup](https://via.placeholder.com/400x250?text=Your+Mockup+Image) |
 
 ## ✨ Key Features
 - **Responsive Architecture:** Seamless experience across Mobile, Tablet, and Desktop.
