@@ -268,4 +268,7 @@ Special thanks to the open-source community for the constant inspiration and the
 - **GitHub**: [Md12Ali](https://github.com/Md12Ali)
 - **Location**: East London, UK
 
-Copyright © 2026 - Mohammed Ali
+## Copyright and license
+
+Code and documentation copyright 2011-2025 the [Bootstrap Authors](https://github.com/twbs/bootstrap/graphs/contributors). Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
+
