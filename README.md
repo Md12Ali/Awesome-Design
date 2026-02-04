@@ -61,12 +61,66 @@ The site meets accessibility guidelines (1.2): High contrast between foreground 
 ---
 
 ## 🎨 Design Process: Wireframes & Mockups
+Brighton MET ( Code Institute), [2/4/2026 2:02 AM]
+Generate a professional, high-resolution wireframe for a GitHub README file based on the attached website screenshots.
+Analyze the uploaded images and structure the wireframe sequentially to effectively showcase the website's key features, user interface, and functionality.
+The layout must include:
+A prominent 'Hero' section placeholder derived from the main screenshot.
+Feature highlights organized into clear, modular sections.
+Logical flow that guides the viewer through the portfolio or project.
+A clean, minimalist, and developer-friendly aesthetic suitable for a README file.
+Ensure the output is a clear, scalable design that can serve as a direct visual guide for the project's documentation."
 
-Before coding, I mapped out the user journey. The goal was to prioritize content hierarchy and ease of navigation.
+Brighton MET ( Code Institute), [2/4/2026 2:52 AM]
+# 🌐 UI/UX Project Documentation: Ali-Design
 
-| Concept Sketch (Wireframe) | Final High-Fidelity UI |
-| :--- | :--- |
-| ![Wireframe](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/Scrach.png?raw=true width="500" height="650" alt="Wireframe) | ![Mockup](https://via.placeholder.com/400x250?text=Your+Mockup+Image) |
+This repository contains the wireframe and mockup documentation for the Ali-Design website. This project focuses on a minimalist, service-oriented portfolio layout.
+
+---
+
+## 🏗️ 1. Information Architecture
+The website follows a high-conversion, single-page scrolling architecture:
+* Hero Section: Primary value proposition and CTA.
+* Services: Grid-based display of professional offerings.
+* Portfolio: Interactive gallery of completed works.
+* About Me: Professional background and branding.
+* Contact: Direct lead generation and social integration.
+
+---
+
+## 📐 2. Wireframe Structure (Low-Fidelity)
+
+The structural layout is designed for maximum readability and user engagement.
+
+| Section | Component | Description |
+| :--- | :--- | :--- |
+| Header | Sticky Nav | Contains Brand Logo and anchor links (Home, Work, Contact). |
+| Hero | Headline + CTA | High-impact text with a primary "Get Started" button. |
+| Services | 3-Column Grid | Responsive cards with icons, titles, and short descriptions. |
+| Portfolio | Masonry Gallery | Image-heavy section with hover-state overlays for project titles. |
+| About | Split Layout | Image on one side, professional bio on the other. |
+| Footer | Social Bar | Centered social media icons with copyright information. |
+
+---
+
+## 🎨 3. Visual Mockup Details (Design System)
+
+### 🔴 Color Palette
+- Primary Accent: #007BFF (Action Blue) — For buttons and active states.
+- Surface: #FFFFFF (Pure White) — Main background color.
+- Secondary Surface: #F8F9FA (Soft Grey) — For section differentiation.
+- Typography (Dark): #212529 — Main headings and body text.
+- Typography (Muted): #6C757D — For secondary descriptions.
+
+### ✍️ Typography
+- Headings: Montserrat (Sans-Serif) | Weight: 700 (Bold)
+- Body: Open Sans | Weight: 400 (Regular) | Line Height: 1.6
+
+### 🔘 UI Elements
+- Border Radius: 5px for buttons and 8px for portfolio cards.
+- Shadows: box-shadow: 0 4px 6px rgba(0,0,0,0.05) for a subtle "floating" effect.
+
+
 
 ## ✨ Key Features
 - **Responsive Architecture:** Seamless experience across Mobile, Tablet, and Desktop.
