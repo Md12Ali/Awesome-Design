@@ -61,6 +61,7 @@ The site meets accessibility guidelines (1.2): High contrast between foreground 
 ---
 
 ## 🎨 Design Process: Wireframes & Mockups
+| :--- | :--- |
 <img src="https://raw.githubusercontent.com/Md12Ali/Awesome-Design/main/Portfolio/img/w.png" alt="Portfolio Image 1" width="33%">
 
 <img src="https://raw.githubusercontent.com/Md12Ali/Awesome-Design/main/Portfolio/img/w3.png" alt="Portfolio Image 2" width="33%">
