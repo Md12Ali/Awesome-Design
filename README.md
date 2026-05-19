@@ -49,10 +49,10 @@ Initial structure and information hierarchy were meticulously sketched in Adobe 
 | **Portfolio**| Masonry Gallery | Responsive image grid containing custom high-resolution project screenshots with clean overlay elements. |
 | **Contact** | Clean Footer Split| Multi-column communication block containing active phone and secure email anchor links. |
 
-<p align="center">
-  <img src="img/w.png" alt="Low-fidelity wireframe schematic layout part 1" width="45%">
+
+  <img src="main/portfolio/img/w.png" alt="Low-fidelity wireframe schematic layout part 1" width="45%">
   <img src="img/w3.png" alt="Low-fidelity wireframe schematic layout part 2" width="45%">
-</p>
+
 
 ### Core Design Principles
 * **Information Hierarchy:** Structural layout is prioritized with introductory elements at the top scaling down to direct inquiries. Semantic headings (`<h1>`-`<h6>`) are implemented sequentially to convey programmatic importance rather than styling.
