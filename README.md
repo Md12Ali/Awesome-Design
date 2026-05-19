@@ -3,35 +3,125 @@
 
 ![image alt](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/101.png?raw=true) 
 ---
-## 📖 Project Rationale
-This portfolio website is designed as a real-world application to showcase expertise in web design and front-end development. 
-* **Purpose:** To provide potential clients and employers an intuitive, accessible interface to explore my professional background and project capabilities.
-* **Justification:** A single-page scrolling architecture was chosen to ensure a "Flow of Information" that minimizes user clicks and keeps the experience unambiguous.
-* **Target Audience:** Potential clients, tech recruiters, and web development collaborators.
+Awesome Design — Portfolio Website
+Live Site: https://ali-design.neocities.org/  
+Author: Mohammed Ali
+Unit: User‑Centric Front‑End Development (Unit 1)
 
-## 👥 User Stories
-The application is built to provide a solution to the following user demands:
-* **As a new visitor:** I want the site's purpose to be immediately evident so I don't need supporting documentation.
-* **As an employer:** I want to see clear examples of past work and services to evaluate technical skills.
-* **As a mobile user:** I want a responsive layout that maintains structural integrity across all device sizes.
-* **As an accessibility-dependent user:** I want high-contrast text and descriptive alt-tags for all images.
+📖 Project Overview
+Awesome Design is a single‑page portfolio website created to showcase my front‑end development skills, design process, and completed projects. The site is designed for potential clients, employers, and collaborators who want a clear, accessible overview of my work.
 
-## 🎨 UX & Design Documentation
-### Design Principles 
-* **Information Hierarchy:** Headers (H1-H6) are used strictly to convey structure, making each section easy to find based on priority.
-* **Accessibility:** Meets guidelines for contrast between background and foreground colors to cater to the visually impaired.
-* **User Control:** The site avoids aggressive pop-ups and autoplay of media; users initiate all actions.
-* **Consistency:** Graphics and interactivity are consistent across all sections to maintain a professional-grade UI.
+The website follows a smooth‑scrolling, user‑friendly structure with clearly defined sections: Hero, About, Services, Portfolio, and Contact.
 
+👥 User Stories
+As a new visitor
+I want to immediately understand the purpose of the site so I can decide whether to explore further.
 
-## 🛠️ Tech Stack & Development
-* **Frontend:** HTML5 (Semantic Markup), CSS3 (Custom Styles), Bootstrap 5 (Responsive Grid).
-* **Validation:** * HTML passed through the official **W3C Validator**.
-    * CSS passed through the official **Jigsaw Validator**.
-* **Maintainability:** Code is organized into well-defined, commented sections with external CSS files linked in the HEAD element.
+As an employer
+I want to see examples of past work to evaluate technical and design skills.
 
-## 🧪 Testing & Bug Evaluation
-Manual testing procedures were implemented to assess functionality and responsiveness.
+As a mobile user
+I want the layout to remain readable and responsive on all screen sizes.
+
+As an accessibility‑dependent user
+I want descriptive alt text, high contrast, and clear navigation so I can use the site without barriers.
+
+🎨 UX Design
+Wireframes
+Wireframes were created in Adobe Photoshop to plan the structure and information hierarchy.
+Sections were arranged in priority order: Hero → About → Services → Portfolio → Contact.
+
+Design Principles
+Information Hierarchy: Semantic HTML (H1–H6) used correctly.
+
+Accessibility: High contrast, descriptive alt text, no autoplay media.
+
+Consistency: Repeated UI patterns, consistent spacing, predictable navigation.
+
+User Control: No intrusive pop‑ups; all interactions are user‑initiated.
+
+✨ Features
+Fully responsive layout using Bootstrap 4.5.3
+
+Smooth scrolling navigation
+
+Portfolio gallery with custom project screenshots
+
+Contact section with working email link
+
+High‑contrast accessible colour palette
+
+Optimised images and fast load times
+
+Clean, semantic HTML structure
+
+🛠️ Technologies Used
+HTML5
+
+CSS3
+
+Bootstrap 4.5.3
+
+Google Fonts: Merriweather, Merriweather Sans
+
+Font Awesome 5.15.1
+
+Magnific Popup
+
+simple-line-icons.css
+
+Adobe Photoshop & Illustrator (wireframes, graphics)
+
+📜 Credits & Attribution
+Templates Used
+This project was built by customising two Start Bootstrap templates:
+
+Start Bootstrap Creative v6.0.4 — MIT License
+
+Start Bootstrap Stylish Portfolio v5.0.9 — MIT License
+
+What I Customised
+All text content (About, Services, Contact)
+
+Portfolio section with my own project screenshots
+
+Colour scheme and branding
+
+Logo design and integration
+
+Contact section layout
+
+Navigation structure
+
+Image assets and filenames
+
+Accessibility improvements (alt text, contrast, semantics)
+
+Tools Used
+Adobe Photoshop & Illustrator
+
+Gemini AI & Microsoft Copilot (research and documentation support)
+
+Testing
+HTML & CSS Validation
+HTML validated using W3C Validator
+
+CSS validated using Jigsaw Validator
+
+Validation screenshots included in:
+
+/img/html-validation.png
+
+/img/css-validation.png
+
+| Feature | Test | Result |
+| --- | --- | --- |
+| Navigation | All links scroll to correct sections | ✔ Pass |
+| External Links | Open in new tab (``target="_blank"``) | ✔ Pass |
+| Responsiveness | Tested on mobile, tablet, desktop | ✔ Pass |
+| Accessibility | Alt text, contrast, semantics | ✔ Pass |
+| Images | All filenames lowercase, no broken links | ✔ Pass |
+
 
 | Feature | Action | Result |
 | :--- | :--- | :--- |
@@ -43,10 +133,27 @@ Manual testing procedures were implemented to assess functionality and responsiv
 * **Fixed:** Resolved a navbar overlap issue on small screens using CSS Media Queries.
 * **Fixed:** Corrected image pixelation by using higher-resolution assets.
 * **Status:** No obvious errors remain; the code is considered robust and publishable.
+* Fixed broken email link (mailto: added)
+
+Added descriptive alt text to all images
+
+Renamed all image filenames to lowercase
+
+Added target="_blank" + rel="noopener" to external links
+
+Fixed navbar spacing on small screens
 
 ## 🚀 Deployment 
-The project is deployed to a cloud-based hosting platform and tested to ensure it matches the development version.
-* **Version Control:** Git & GitHub were used throughout with descriptive commit messages for each feature.
+The site is deployed on Neocities.
+
+Deployment Steps
+Upload project folder to Neocities
+
+Ensure all image paths match lowercase filenames
+
+Test live site for broken links
+
+Push final version to GitHub
 
 ### Design Process
 The design follows principles of user experience (UX) design, accessibility, and responsiveness as per LO1. Wireframes were sketched in Photoshop to plan the structure, starting with a main navigation menu and single-scrolling page divided into sections (Intro, About, Services, Portfolio, Contact). Information hierarchy was prioritized: headers convey structure (e.g., H1 for section titles), content is categorized by priority (e.g., intro at top, contact at bottom), and navigation is intuitive via anchor links.
