@@ -50,8 +50,8 @@ Initial structure and information hierarchy were meticulously sketched in Adobe 
 | **Contact** | Clean Footer Split| Multi-column communication block containing active phone and secure email anchor links. |
 
 
-  <img src="main/portfolio/img/w.png" alt="Low-fidelity wireframe schematic layout part 1" width="45%">
-  <img src="img/w3.png" alt="Low-fidelity wireframe schematic layout part 2" width="45%">
+  <img src="main/portfolio/img/w.png" alt="Low-fidelity wireframe schematic layout">
+  <img src="img/w3.png" alt="Low-fidelity wireframe schematic" >
 
 
 ### Core Design Principles
@@ -126,6 +126,13 @@ During development, the following technical layout anomalies were tracked, isola
 * **Asset Filename Case Conflicts:** Capitalization patterns within production images (e.g., `.PNG`) caused broken image link flags during remote server testing. *Resolution:* Re-saved and programmatically linked all project imagery to strict lowercase file schemas (`capture1.png`, `logo2.png`).
 
 ---
+
+### What I Customised
+* All text content (About, Services, Contact details).
+* Portfolio gallery populated with my own project screenshots.
+* Colour adjustments to match my personal brand.
+* Custom logo design and integration.
+* Realigned all file paths and naming conventions for standard web compliance.
 
 ## 🚀 Deployment
 The production application is securely hosted and managed via **Neocities**, with live repository synchronization mapped through Git configurations.
