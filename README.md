@@ -50,8 +50,9 @@ Initial structure and information hierarchy were meticulously sketched in Adobe 
 | **Contact** | Clean Footer Split| Multi-column communication block containing active phone and secure email anchor links. |
 
 
-  <img src="img/wireframe1.png " alt="Low-fidelity wireframe schematic layout">
-  <img src="img/wireframe2.png " alt="Low-fidelity wireframe schematic" >
+
+ ![Wireframe 1](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/wireframe1.png?raw=true)
+![Wireframe 2](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/wireframe2.png?raw=true)
 
 
 ### Core Design Principles
