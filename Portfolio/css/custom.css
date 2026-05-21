@@ -1,0 +1,77 @@
+/* =============================================
+   CUSTOM CSS - Mohammed Ali's Own Modifications
+   ============================================= */
+
+/* General Improvements */
+body {
+    font-family: "Merriweather", system-ui, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 6rem 0;
+    background-color: #f8f9fa;
+}
+
+/* Hero Heading */
+h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* Custom Top Heading */
+h4.top {
+    margin-top: 24%;
+    color: #b3b7bb;
+    font-weight: 400;
+}
+
+/* Portfolio Title */
+.portfolio {
+    margin-bottom: 3%;
+    padding-top: 8%;
+    text-align: center;
+    color: #343a40;
+}
+
+/* More Button Styling */
+#more {
+    margin-left: 45%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #more {
+        margin-left: 0;
+    }
+    
+    h4.top {
+        margin-top: 15% !important;
+    }
+}
+
+/* Improve button hover effect */
+.btn-primary:hover {
+    background-color: #ee3e0d;
+    border-color: #ee3e0d;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Portfolio box hover enhancement */
+.portfolio-box:hover img {
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+}
+
+/* Accessibility & Spacing */
+section {
+    scroll-margin-top: 80px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+}
