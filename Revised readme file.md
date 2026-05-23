@@ -1,6 +1,6 @@
 # Awesome Design — Portfolio Website
 
-**Live Site:** [https://ali-design.neocities.org/](https://ali-design.neocities.org/)  
+**Live Site:** [https://ali-design.neocities.org/](https://ali-design.neocities.org/#page-top)  
 **Repository:** [https://github.com/Md12Ali/Awesome-Design](https://github.com/Md12Ali/Awesome-Design)  
 **Author:** Mohammed Ali  
 **Unit:** Unit 1 – User Centric Front End Development (Y/650/3525)
@@ -271,7 +271,7 @@ I also acknowledge the Start Bootstrap team for their high-quality, open-source 
 | Capitalised image filenames | Renamed to lowercase            | Fixed  |
 
 ## 8. Deployment
-The website is live on **Neocities** at: [https://ali-design.neocities.org/](https://ali-design.neocities.org/)
+The website is live on **Neocities** at: [https://ali-design.neocities.org/](https://ali-design.neocities.org/#page-top)
 
 ### Deployment Steps
 The site is deployed using **Neocities**.
