@@ -94,3 +94,16 @@ The website is live on **Neocities** at: [https://ali-design.neocities.org/](htt
 2. Open `index.html` locally
 3. Upload all files to Neocities
 4. Verify the live site matches the repository
+
+## 9. How to Run Locally
+
+1. Clone the repository  
+2. Open `index.html` in any browser  
+3. No installation required  
+
+---
+
+## 10. Contact
+
+**Mohammed Ali**  
+Email: **mohammed_12ali@outlook.com**
