@@ -91,9 +91,11 @@ This project was built by **customising two Start Bootstrap templates**. Using t
 
 ## 6. Testing
 **Validation Evidence:**
-- HTML passes W3C Validator → [img/html-validation.png](img/html-validation.png)
+- HTML passes W3C Validator → [![HTML Validation](Portfolio/img/html-validation.jpeg)](Portfolio/img/html-validation.jpeg)
+
 - Alt: Screenshot showing W3C HTML validation with no errors.
-- CSS passes Jigsaw Validator → [img/css-validation.png](img/css-validation.png)
+- CSS passes Jigsaw Validator → [![CSS Validation](Portfolio/img/css-validation.jpeg)](Portfolio/img/css-validation.jpeg)
+
 - Alt: Screenshot showing Jigsaw CSS validation with no errors.
 
 **Manual Testing Summary:**
