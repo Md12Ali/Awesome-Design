@@ -35,12 +35,68 @@ The layout avoids unnecessary complexity, focusing on clean sections, clear typo
 ### 2. Consistency
 Consistent spacing, colours, typography, and iconography are used throughout the site. This creates a unified visual identity and helps users predict how elements behave.
 
-### 3. Accessibility
-Accessibility was prioritised through:
-- Descriptive alt text for all images  
-- High‑contrast colour combinations  
-- Keyboard‑friendly navigation  
-- Clear link labels and readable font sizes
+## Accessibility
+
+Accessibility was a key focus throughout the development of this project to ensure the website is usable by as many people as possible, including users with visual, motor, or cognitive impairments. The site follows core WCAG 2.1 AA principles and includes several features designed to improve accessibility.
+
+### 1. Semantic HTML Structure
+The website uses semantic HTML elements such as:
+- `<header>`
+- `<nav>`
+- `<section>`
+- `<main>`
+- `<footer>`
+
+This improves screen‑reader navigation and helps assistive technologies understand the structure of the page.
+
+### 2. Alt Text for All Images
+All images include descriptive `alt` attributes so users with screen readers can understand the content.  
+Example: portfolio items, wireframes, and profile images all have meaningful alt descriptions.
+
+### 3. High Contrast & Readable Typography
+- Text and background colours were chosen to maintain strong contrast.
+- Google Fonts (Merriweather & Merriweather Sans) provide high readability.
+- Font sizes are large enough for comfortable reading on all devices.
+
+### 4. Keyboard Navigation
+The site can be navigated using only the keyboard:
+- Tab order follows a logical sequence  
+- Links and buttons are focusable  
+- Navigation bar remains accessible on all screen sizes  
+
+### 5. Accessible Links
+- External links use `target="_blank"` with `rel="noopener"` for safety  
+- Email link uses `mailto:` for direct access  
+- Link text is descriptive (e.g., “View Portfolio” instead of “Click Here”)
+
+### 6. Responsive & Mobile‑Friendly Layout
+The mobile‑first design ensures:
+- No horizontal scrolling  
+- Touch‑friendly buttons  
+- Proper spacing between interactive elements  
+
+### 7. ARIA & Label Improvements
+Where needed, ARIA attributes were added to improve clarity for assistive technologies:
+- `aria-label` for navigation  
+- Icons marked as decorative using `aria-hidden="true"`  
+
+### 8. Consistent Layout & Predictable Behaviour
+Users can easily predict:
+- Where navigation is located  
+- How sections flow  
+- How buttons and links behave  
+
+This reduces cognitive load and improves usability for all visitors.
+
+### 9. Validation & Testing
+Accessibility was checked through:
+- Manual keyboard testing  
+- Colour contrast checks  
+- Screen‑reader friendly structure  
+- HTML validation to ensure clean, error‑free markup  
+
+The site meets the accessibility expectations for Unit 1 and provides an inclusive experience across devices.
+
 
 These choices ensure the site is usable for a wide range of users, including those with visual or motor impairments.
 
