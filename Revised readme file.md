@@ -256,7 +256,12 @@ All design decisions, code implementation, customisations, and final content wer
 - Chrome  
 - Firefox  
 - Safari  
-- Edge  
+- Edge
+
+### Acknowledgments
+I would like to express my sincere gratitude to my assessor, Yassin Hassan, for the constructive feedback and clear guidance provided during the assessment process. These insights were instrumental in helping me improve the accessibility, documentation, and technical compliance of this portfolio.
+
+I also acknowledge the Start Bootstrap team for their high-quality, open-source templates, which provided the foundational structure for this project, and the broader web development community for the documentation that supported my learning journey.
 
 ## 7. Bugs Fixed
 | Bug                          | Fix Applied                     | Status |
