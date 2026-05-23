@@ -270,17 +270,52 @@ I also acknowledge the Start Bootstrap team for their high-quality, open-source 
 | Broken email link           | Added `mailto:` prefix          | Fixed  |
 | Capitalised image filenames | Renamed to lowercase            | Fixed  |
 
-## 8. Deployment
-The website is live on **Neocities** at: [https://ali-design.neocities.org/](https://ali-design.neocities.org/#page-top)
+## 8 Deployment Process
 
-### Deployment Steps
-The site is deployed using **Neocities**.
+The website is deployed using **Neocities**, a free static hosting platform suitable for HTML, CSS, JavaScript, and image-based projects. The deployment process ensures that the live version of the site matches the GitHub repository exactly, as required by the Unit 1 assessment criteria.
 
-### **Steps:**
-1. Create a Neocities account  
-2. Upload all project files  
-3. Ensure folder structure matches GitHub  
-4. Publish the site  
+### 1. Preparing the Project
+Before deployment, the following steps were completed:
+- All files were organised into a clear folder structure (`Portfolio/`, `img/`, `css/`, `js/`)
+- Image filenames were converted to lowercase for consistency
+- HTML and CSS were validated using W3C validators
+- All links, navigation anchors, and file paths were tested locally
+
+### 2. Uploading to Neocities
+The site was deployed using the following steps:
+
+1. Created a Neocities account  
+2. Logged into the Neocities dashboard  
+3. Uploaded the entire project folder, including:  
+   - `index.html`  
+   - `css/` folder  
+   - `js/` folder  
+   - `img/` folder  
+   - `Portfolio/` folder  
+4. Ensured all files and subfolders matched the GitHub structure  
+5. Published the site at:  
+   **https://ali-design.neocities.org/**
+
+### 3. Updating the Live Site
+Whenever changes are made:
+1. Files are updated in GitHub  
+2. The same updated files are re-uploaded to Neocities  
+3. The live site is refreshed to confirm the update  
+4. A final check is performed to ensure no broken links or missing assets
+
+### 4. Verification (Path‑to‑Pass Requirement)
+After deployment, the following checks were completed:
+- The live Neocities version matches the GitHub repository exactly  
+- All images load correctly  
+- Navigation links work on desktop and mobile  
+- External links open in new tabs  
+- Email link functions correctly  
+- Portfolio items display as intended  
+- No console errors appear in the browser  
+
+### 5. Live Deployment Link
+The final deployed website can be viewed at:  
+**https://ali-design.neocities.org/**
 
 ## 9. How to Run Locally
 
