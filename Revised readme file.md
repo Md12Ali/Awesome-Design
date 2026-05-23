@@ -32,15 +32,19 @@ The initial layout and structure were planned using low‑fidelity wireframes cr
 The initial layout and structure were planned using low‑fidelity wireframes created in Adobe Photoshop. These wireframes helped define the information hierarchy, responsive behaviour, and component placement before development began.
 
 ### Homepage Wireframe
-[![Homepage Wireframe](img/wireframe-home.png)](https://github.com/Md12Ali/Awesome-Design/blob/c38a0efe2e8ae7b0d78ae04b001c540c41840a7c/Portfolio/img/home%20wireframe.jpeg  )
+[![Homepage Wireframe](img/wireframe-home.png)](Portfolio/img/home%20wireframe.jpeg)
+
+
 *Alt: Low‑fidelity wireframe showing hero banner, navigation, about, services, portfolio, and contact layout.*
 
 ### Portfolio Wireframe
 ![Service Wireframe](Portfolio/img/service%20wireframe.jpeg)
+
 *Alt: Wireframe showing responsive grid layout for project thumbnails.*
 
 ### Contact Section Wireframe
- https://github.com/Md12Ali/Awesome-Design/blob/c38a0efe2e8ae7b0d78ae04b001c540c41840a7c/Portfolio/img/contact%20wireframe.jpeg
+![Contact Wireframe](Portfolio/img/contact%20wireframe.jpeg)
+
 *Alt: Wireframe showing simple contact block with email and phone links.*
 
 ### Wireframe Acceptance Criteria
