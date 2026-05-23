@@ -25,16 +25,6 @@ The site features a clean, modern, and fully responsive layout with smooth scrol
 | As an accessibility user, I want proper support | Descriptive alt text, working links, good contrast | Yes |
 
 
-### User Stories with Acceptance Criteria
-- **As a new visitor**, I want the site's purpose to be immediately evident.  
-  *Acceptance Criteria:* Strong hero section with clear headline and call-to-action. **Verified:** Yes.
-- **As an employer/recruiter**, I want to easily view services and portfolio examples.  
-  *Acceptance Criteria:* Dedicated Services and Portfolio sections with real project screenshots. **Verified:** Yes.
-- **As a mobile user**, I want a fully responsive layout.  
-  *Acceptance Criteria:* Site adapts correctly across all devices. **Verified:** Yes.
-- **As an accessibility-dependent user**, I want high contrast and descriptive alt text.  
-  *Acceptance Criteria:* Proper alt attributes on all images and good contrast. **Verified:** Yes.
-
   ## Core Design Principles
 
 The design of this portfolio website is guided by key UX and UI principles to ensure clarity, accessibility, and a smooth user experience across all devices.
