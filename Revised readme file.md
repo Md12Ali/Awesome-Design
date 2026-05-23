@@ -93,7 +93,7 @@ Below are the final low‑fidelity wireframes used during development:
 ### Contact Section Wireframe
 ![Contact Wireframe](Portfolio/img/contact%20wireframe.jpeg)
 
-*Alt: Wireframe showing simple contact block with phone & email link.*
+*Alt: Wireframe showing simple contact block with email link.*
 
 ### Wireframe Acceptance Criteria
 - Layout must remain consistent across desktop, tablet, and mobile.
