@@ -1,179 +1,96 @@
 # Awesome Design — Portfolio Website
-A responsive, user‑centric portfolio website showcasing my front‑end development work.
-The site is designed for potential employers, clients, and tutors who want to quickly understand my skills, projects, and design approach.
+
+**Live Site:** [https://ali-design.neocities.org/](https://ali-design.neocities.org/)  
+**Repository:** [https://github.com/Md12Ali/Awesome-Design](https://github.com/Md12Ali/Awesome-Design)  
+**Author:** Mohammed Ali  
+**Unit:** Unit 1 – User Centric Front End Development (Y/650/3525)
 
 ## 1. Project Overview
-This project is a personal portfolio website built to demonstrate my skills in HTML, CSS, Bootstrap, responsive design, accessibility, and UX thinking.
-It includes a hero section, project gallery, about section, services, and contact details.
+Awesome Design is a professional single-page portfolio website built to showcase my skills as a Designer and Front-End Developer to potential clients, employers, and collaborators.
 
-The site is deployed on Neocities and hosted publicly for assessment.
+The site features a clean, modern, and fully responsive layout with smooth scrolling navigation across five main sections: Hero, About, Services, Portfolio, and Contact.
 
 ## 2. UX Design
-User Stories (with acceptance criteria)
-1. As a visitor, I want to understand who the developer is, so I can quickly see their skills.
 
-Clear About section
+### User Stories with Acceptance Criteria
+- **As a new visitor**, I want the site's purpose to be immediately evident.  
+  *Acceptance Criteria:* Strong hero section with clear headline and call-to-action. **Verified:** Yes.
+- **As an employer/recruiter**, I want to easily view services and portfolio examples.  
+  *Acceptance Criteria:* Dedicated Services and Portfolio sections with real project screenshots. **Verified:** Yes.
+- **As a mobile user**, I want a fully responsive layout.  
+  *Acceptance Criteria:* Site adapts correctly across all devices. **Verified:** Yes.
+- **As an accessibility-dependent user**, I want high contrast and descriptive alt text.  
+  *Acceptance Criteria:* Proper alt attributes on all images and good contrast. **Verified:** Yes.
 
-Skills and services visible without scrolling too far
-
-2. As a visitor, I want to view project examples, so I can judge the developer’s ability.
-
-Portfolio grid with screenshots
-
-Each image has descriptive alt text
-
-3. As a visitor, I want the site to work on mobile, so I can browse easily.
-
-Fully responsive Bootstrap layout
-
-Mobile‑friendly navigation
-
-4. As a visitor, I want to contact the developer easily.
-
-Email link using mailto:
-
-Contact details displayed clearly
-
-Wireframes
-Wireframes were created in Adobe Photoshop and Illustrator for desktop and mobile layouts.
-
-(Insert your wireframe images here if you have them.)
+### Wireframes
+![Wireframe 1](img/w.png)  
+![Wireframe 2](img/w3.png)
 
 ## 3. Features
-Current Features
-Responsive hero banner
-
-Portfolio gallery with 6 project screenshots
-
-Smooth scrolling navigation
-
-About section with personal introduction
-
-Services section
-
-Contact section with working email link
-
-Fully responsive layout (Bootstrap 4.5.3)
-
-Future Enhancements
-Add project detail pages
-
-Add blog section
-
-Add dark mode toggle
+- Fixed navbar with hamburger menu and smooth anchor scrolling
+- Hero section with strong value proposition
+- About section highlighting professional background
+- Responsive services grid with icons
+- Interactive portfolio gallery with lightbox effect
+- Contact section with working email and phone links
+- Hover effects and professional visual feedback
 
 ## 4. Technologies Used
-Core Technologies
-HTML5
-
-CSS3
-
-Bootstrap 4.5.3
-
-JavaScript (minimal)
-
-Fonts
-Merriweather
-
-Merriweather Sans  
-(Loaded via Google Fonts — matches actual code.)
-
-Icons & Libraries
-Font Awesome 5.15.1
-
-Simple Line Icons
-
-Magnific Popup (lightbox)
+- **HTML5** – Semantic markup
+- **CSS3** – Custom styles and overrides
+- **Framework:** Bootstrap 4.5.3 (grid system, navbar, responsiveness)
+- **Typography:** Google Fonts – Merriweather and Merriweather Sans
+- **Icons:** Font Awesome 5.15.1
+- **Interactivity:** jQuery, Magnific Popup
+- **Tools:** Adobe Photoshop & Illustrator, Git/GitHub, Neocities
 
 ## 5. Credits & Attribution
-Templates Used
-This project was built by customising two Start Bootstrap templates:
+This project was built by **customising two Start Bootstrap templates**. Using templates is normal and acceptable in web development.
 
-Start Bootstrap Creative v6.0.4 — MIT License
+### Templates Used
+- **Start Bootstrap – Creative v6.0.4** (MIT License) – Core structure, masthead, navigation, `styles.css`, and `scripts.js`
+- **Start Bootstrap – Stylish Portfolio v5.0.9** (MIT License) – Portfolio and services styling (`stylish-portfolio.css`)
 
-Start Bootstrap Stylish Portfolio v5.0.9 — MIT License
+### What I Customised (My Own Work)
+- All personal text content (About, Services, Contact)
+- Portfolio gallery with my own project screenshots
+- Custom logo design and integration
+- Colour scheme adjustments to match my branding
+- Accessibility improvements (alt text, mailto links, `target="_blank"`)
+- File renaming to lowercase with descriptive names
+- Custom CSS overrides in `css/custom.css`
+- Full documentation and testing
 
-What I Customised
-All text content (About, Services, Contact)
-
-Portfolio section with my own project screenshots
-
-Colour adjustments
-
-Logo design and integration
-
-Layout adjustments in multiple sections
-
-Navigation and footer content
-
-External Resources
-Bootstrap 4.5.3
-
-Google Fonts (Merriweather, Merriweather Sans)
-
-Font Awesome
-
-Magnific Popup
-
-Simple Line Icons
-
-Tools Used
-Adobe Photoshop & Illustrator (wireframes, graphics)
-
-Microsoft Copilot & Gemini AI (research and documentation support)
+**External Resources:** Bootstrap 4.5.3, Google Fonts, Font Awesome, Magnific Popup.
 
 ## 6. Testing
-HTML Validation
-The site was validated using W3C HTML Validator.
-No critical errors remain after fixes.
+**Validation Evidence:**
+- HTML passes W3C Validator → [img/html-validation.png](img/html-validation.png)
+- CSS passes Jigsaw Validator → [img/css-validation.png](img/css-validation.png)
 
-(Insert screenshot: img/html-validation.png)
+**Manual Testing Summary:**
 
-CSS Validation
-The CSS was validated using W3C Jigsaw CSS Validator.
-No critical errors remain.
+| Test Area              | Result |
+|------------------------|--------|
+| Navigation             | Pass   |
+| External Links         | Pass   |
+| Responsiveness         | Pass   |
+| Accessibility          | Pass   |
+| Portfolio Lightbox     | Pass   |
+| Functionality          | Pass   |
 
-(Insert screenshot: img/css-validation.png)
+## 7. Bugs Fixed
+| Bug                          | Fix Applied                     | Status |
+|-----------------------------|---------------------------------|--------|
+| Navbar overlap on mobile    | CSS media queries               | Fixed  |
+| Broken email link           | Added `mailto:` prefix          | Fixed  |
+| Capitalised image filenames | Renamed to lowercase            | Fixed  |
 
-Manual Testing
-All links tested
+## 8. Deployment
+The website is live on **Neocities** at: [https://ali-design.neocities.org/](https://ali-design.neocities.org/)
 
-Email link fixed using mailto:
-
-External links open in new tabs using target="_blank" rel="noopener"
-
-All images renamed to lowercase and updated in HTML
-
-All images include descriptive alt text
-
-## 7. Bugs & Fixes
-Bug 1 — Email link not working
-Cause: Missing mailto:  
-Fix: Updated to href="mailto:mohammed_12ali@outlook.com"
-
-Bug 2 — Images not loading on some devices
-Cause: Uppercase filenames
-Fix: Renamed all images to lowercase and updated HTML references
-
-## 8. Deployment (Neocities)
-Steps:
-Create a Neocities account
-
-Upload all project files (HTML, CSS, JS, img folder)
-
-Ensure lowercase filenames match HTML references
-
-Publish site
-
-Test live version on mobile and desktop
-
-## 9. How to Run Locally
-Clone the repository
-
-Open index.html in any browser
-
-No installation required
-
-## 10. Contact
-Mohammed Ali  
-Email: mohammed_12ali@outlook.com
+### Deployment Steps
+1. Clone the repository: `git clone https://github.com/Md12Ali/Awesome-Design.git`
+2. Open `index.html` locally
+3. Upload all files to Neocities
+4. Verify the live site matches the repository
