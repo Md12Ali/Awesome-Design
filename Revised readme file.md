@@ -36,7 +36,7 @@ The initial layout and structure were planned using low‑fidelity wireframes cr
 *Alt: Low‑fidelity wireframe showing hero banner, navigation, about, services, portfolio, and contact layout.*
 
 ### Portfolio Wireframe
- https://github.com/Md12Ali/Awesome-Design/blob/c38a0efe2e8ae7b0d78ae04b001c540c41840a7c/Portfolio/img/service%20wireframe.jpeg  
+![Service Wireframe](Portfolio/img/service%20wireframe.jpeg)
 *Alt: Wireframe showing responsive grid layout for project thumbnails.*
 
 ### Contact Section Wireframe
