@@ -16,6 +16,16 @@ The site features a clean, modern, and fully responsive layout with smooth scrol
 ## 2. UX Design
 
 ### User Stories with Acceptance Criteria
+
+| User Story | Acceptance Criteria | Verified |
+|------------|---------------------|----------|
+| As a new visitor, I want to immediately understand the purpose of the site | Clear hero section with headline and call-to-action | Yes |
+| As an employer, I want to see services and real projects | Dedicated Services and Portfolio sections with screenshots | Yes |
+| As a mobile user, I want the site to work well on my device | Fully responsive layout using Bootstrap grid | Yes |
+| As an accessibility user, I want proper support | Descriptive alt text, working links, good contrast | Yes |
+
+
+### User Stories with Acceptance Criteria
 - **As a new visitor**, I want the site's purpose to be immediately evident.  
   *Acceptance Criteria:* Strong hero section with clear headline and call-to-action. **Verified:** Yes.
 - **As an employer/recruiter**, I want to easily view services and portfolio examples.  
