@@ -26,10 +26,59 @@ The site features a clean, modern, and fully responsive layout with smooth scrol
   *Acceptance Criteria:* Proper alt attributes on all images and good contrast. **Verified:** Yes.
 
 ### Wireframes
-The initial layout and structure were planned using low‑fidelity wireframes created in Adobe Photoshop. These wireframes helped define the information hierarchy, responsive behaviour, and component placement before development began.
-## Wireframes (Low-Fidelity Prototypes)
+## Wireframe Structure
 
-The initial layout and structure were planned using low‑fidelity wireframes created in Adobe Photoshop. These wireframes helped define the information hierarchy, responsive behaviour, and component placement before development began.
+The wireframes for this project were created during the planning phase to establish a clear visual structure before development began. They were designed in Adobe Photoshop and follow a mobile‑first approach to ensure accessibility and responsiveness across all devices.
+
+### Purpose of the Wireframes
+The wireframes were created to:
+- Define the layout and hierarchy of each section
+- Plan how content should flow from top to bottom
+- Ensure consistent spacing, alignment, and readability
+- Visualise how the design adapts across desktop, tablet, and mobile
+- Identify potential usability issues early in the process
+
+### Structure Overview
+Each wireframe includes the following core elements:
+
+#### **1. Header & Navigation**
+- Fixed navigation bar
+- Clear section links (About, Services, Portfolio, Contact)
+- Mobile hamburger menu placement
+
+#### **2. Hero Section**
+- Large headline for immediate clarity
+- Supporting text for value proposition
+- Call‑to‑action button positioned centrally
+
+#### **3. About Section**
+- Two‑column layout (text + supporting visual)
+- Clear introduction and purpose statement
+
+#### **4. Services Section**
+- Three‑column grid layout
+- Icons representing each service
+- Short descriptions for quick scanning
+
+#### **5. Portfolio Section**
+- Responsive grid of project thumbnails
+- Space for hover or click interaction
+- Consistent image sizing for visual balance
+
+#### **6. Contact Section**
+- Simple, accessible layout
+- Email and phone links
+- Clear call‑to‑action encouraging communication
+
+### Wireframe Goals
+The wireframes were designed to meet the following goals:
+- Ensure navigation remains visible and accessible
+- Present portfolio items clearly and professionally
+- Provide a clean, simple contact method
+- Support a smooth user journey from top to bottom
+
+### Wireframe Images
+Below are the final low‑fidelity wireframes used during development:
 
 ### Homepage Wireframe
 ![Home Wireframe](Portfolio/img/home%20wireframe.jpeg)
@@ -44,7 +93,7 @@ The initial layout and structure were planned using low‑fidelity wireframes cr
 ### Contact Section Wireframe
 ![Contact Wireframe](Portfolio/img/contact%20wireframe.jpeg)
 
-*Alt: Wireframe showing simple contact block with email and phone links.*
+*Alt: Wireframe showing simple contact block with phone & email link.*
 
 ### Wireframe Acceptance Criteria
 - Layout must remain consistent across desktop, tablet, and mobile.
