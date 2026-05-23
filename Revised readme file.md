@@ -61,6 +61,26 @@ The initial layout and structure were planned using low‑fidelity wireframes cr
 - Contact section with working email and phone links
 - Hover effects and professional visual feedback
 
+### **Existing Features**
+- Responsive navigation bar  
+- Hero section with call‑to‑action  
+- Portfolio gallery  
+- About section  
+- Services section  
+- Contact section with working email link  
+- Footer with copyright  
+- Fully responsive layout  
+- External links opening in new tabs  
+- All images renamed to lowercase  
+- All images include descriptive alt text  
+
+### **Future Features**
+- Dark mode  
+- Interactive gallery  
+- Contact form with validation  
+
+
+
 ## 4. Technologies Used
 - **HTML5** – Semantic markup
 - **CSS3** – Custom styles and overrides
