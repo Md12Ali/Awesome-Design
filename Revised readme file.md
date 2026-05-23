@@ -5,6 +5,9 @@
 **Author:** Mohammed Ali  
 **Unit:** Unit 1 – User Centric Front End Development (Y/650/3525)
 
+![Portfolio Showcase Screenshot](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/101.png?raw=true)  
+
+
 ## 1. Project Overview
 Awesome Design is a professional single-page portfolio website built to showcase my skills as a Designer and Front-End Developer to potential clients, employers, and collaborators.
 
@@ -23,8 +26,8 @@ The site features a clean, modern, and fully responsive layout with smooth scrol
   *Acceptance Criteria:* Proper alt attributes on all images and good contrast. **Verified:** Yes.
 
 ### Wireframes
-![Wireframe 1](img/w.png)  
-![Wireframe 2](img/w3.png)
+ ![Wireframe 1](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/wireframe1.png?raw=true)
+![Wireframe 2](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/wireframe2.png?raw=true)
 
 ## 3. Features
 - Fixed navbar with hamburger menu and smooth anchor scrolling
