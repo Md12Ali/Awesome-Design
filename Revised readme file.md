@@ -155,17 +155,14 @@ This project was built by **customising two Start Bootstrap templates**. Using t
 The website is live on **Neocities** at: [https://ali-design.neocities.org/](https://ali-design.neocities.org/)
 
 ### Deployment Steps
-Deployment Steps
-Clone the repository:
-git clone https://github.com/Md12Ali/Awesome-Design.git
+The site is deployed using **Neocities**.
 
-Open index.html locally
+### **Steps:**
+1. Create a Neocities account  
+2. Upload all project files  
+3. Ensure folder structure matches GitHub  
+4. Publish the site  
 
-Upload all files to Neocities
-
-Verify the live site matches the repository
-
-Final requirement: Ensure the Neocities version matches GitHub exactly (Path‑to‑Pass requirement)
 ## 9. How to Run Locally
 
 1. Clone the repository  
