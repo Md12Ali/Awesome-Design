@@ -120,14 +120,29 @@ This project was built by **customising two Start Bootstrap templates**. Using t
 
 **Manual Testing Summary:**
 
-| Test Area              | Result |
-|------------------------|--------|
-| Navigation             | Pass   |
-| External Links         | Pass   |
-| Responsiveness         | Pass   |
-| Accessibility          | Pass   |
-| Portfolio Lightbox     | Pass   |
-| Functionality          | Pass   |
+### **Manual Testing Table**
+
+| Feature | Test | Expected Result | Actual Result | Pass |
+|--------|------|----------------|----------------|------|
+| Navigation links | Click each link | Smooth scroll to section | Works correctly | ✔ |
+| External links | Click GitHub/Neocities | Opens in new tab | Works | ✔ |
+| Email link | Click email | Opens mail client | Works | ✔ |
+| Images | Load on all devices | Display correctly | Works | ✔ |
+| Responsiveness | Resize browser | Layout adjusts | Works | ✔ |
+| Alt text | Inspect images | Alt text present | All correct | ✔ |
+
+### **Device Testing**
+- iPhone 12  
+- Samsung Galaxy S21  
+- iPad 10th Gen  
+- Windows laptop  
+- MacBook Air  
+
+### **Browser Testing**
+- Chrome  
+- Firefox  
+- Safari  
+- Edge  
 
 ## 7. Bugs Fixed
 | Bug                          | Fix Applied                     | Status |
