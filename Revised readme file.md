@@ -25,10 +25,48 @@ The site features a clean, modern, and fully responsive layout with smooth scrol
 - **As an accessibility-dependent user**, I want high contrast and descriptive alt text.  
   *Acceptance Criteria:* Proper alt attributes on all images and good contrast. **Verified:** Yes.
 
-### Wireframes
+  ## Core Design Principles
+
+The design of this portfolio website is guided by key UX and UI principles to ensure clarity, accessibility, and a smooth user experience across all devices.
+
+### 1. Simplicity
+The layout avoids unnecessary complexity, focusing on clean sections, clear typography, and intuitive navigation. Users can quickly understand the purpose of the site without distractions.
+
+### 2. Consistency
+Consistent spacing, colours, typography, and iconography are used throughout the site. This creates a unified visual identity and helps users predict how elements behave.
+
+### 3. Accessibility
+Accessibility was prioritised through:
+- Descriptive alt text for all images  
+- High‑contrast colour combinations  
+- Keyboard‑friendly navigation  
+- Clear link labels and readable font sizes
+
+These choices ensure the site is usable for a wide range of users, including those with visual or motor impairments.
+
+### 4. Mobile‑First Responsiveness
+The design was planned and built using a mobile‑first approach. The layout adapts seamlessly across mobile, tablet, and desktop devices using Bootstrap’s responsive grid system.
+
+### 5. Visual Hierarchy
+Content is structured using headings, spacing, and typography to guide the user’s eye. Important elements such as the hero headline, call‑to‑action buttons, and portfolio items are emphasised visually.
+
+### 6. User Control & Clarity
+Navigation is always visible, links behave predictably, and interactive elements provide visual feedback. This ensures users always know where they are and how to move through the site.
+
+### 7. Performance & Efficiency
+Images are optimised, scripts are lightweight, and the layout avoids unnecessary animations. This ensures fast loading times and smooth performance on all devices.
+
+### 8. Purpose‑Driven Content
+Every section serves a clear purpose:
+- Hero: Introduce the brand  
+- About: Explain who I am  
+- Services: Show what I offer  
+- Portfolio: Display my work  
+- Contact: Provide a simple way to reach me  
+
 ## Wireframe Structure
 
-The wireframes for this project were created during the planning phase to establish a clear visual structure before development began. They were designed in Adobe Photoshop and follow a mobile‑first approach to ensure accessibility and responsiveness across all devices.
+The wireframes for this project were created during the planning phase to establish a clear visual structure before development began. They were designed in Adobe Photoshop & AI and follow a mobile‑first approach to ensure accessibility and responsiveness across all devices.
 
 ### Purpose of the Wireframes
 The wireframes were created to:
@@ -67,7 +105,7 @@ Each wireframe includes the following core elements:
 
 #### **6. Contact Section**
 - Simple, accessible layout
-- Email and phone links
+- Email link
 - Clear call‑to‑action encouraging communication
 
 ### Wireframe Goals
