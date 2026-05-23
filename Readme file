@@ -1,0 +1,193 @@
+# Awesome Design – Portfolio Website  
+Created by Mohammed Ali  
+
+A responsive portfolio website showcasing my design work, wireframes, and validation evidence.  
+This project was built using two open‑source Start Bootstrap templates and customised extensively to meet the Unit 1 requirements.
+
+---
+
+## 1. Project Overview
+
+Awesome Design is a personal portfolio website created to demonstrate my ability to build a responsive, accessible, and professionally presented website.  
+The site includes wireframes, portfolio items, contact information, and validation evidence.
+
+The project is deployed on Neocities and fully responsive across desktop, tablet, and mobile devices.
+
+Live Site: https://ali-design.neocities.org/  
+GitHub Repo: https://github.com/Md12Ali/Awesome-Design  
+
+---
+
+## 2. UX (User Experience)
+
+### **Strategy**
+The goal of this project is to present my design work clearly and professionally while demonstrating strong web development fundamentals.
+
+### **Target Users**
+- Employers reviewing my portfolio  
+- Tutors assessing my Unit 1 submission  
+- Anyone interested in my design work  
+
+### **User Needs**
+- Easy navigation  
+- Clear layout  
+- Accessible content  
+- Mobile‑friendly design  
+- Visual examples of work  
+
+---
+
+## 3. User Stories
+
+### **As a visitor, I want to:**
+- View the portfolio easily on any device  
+- Understand what the website is about immediately  
+- Navigate between sections smoothly  
+- See wireframes and validation evidence  
+- Contact the creator via email  
+
+### **As an assessor, I want to:**
+- Verify accessibility (alt text, correct links, readable content)  
+- Confirm correct documentation and attribution  
+- See HTML and CSS validation results  
+- Check that filenames and paths follow best practice  
+
+---
+
+## 4. Features
+
+### **Existing Features**
+- Responsive navigation bar  
+- Hero section with call‑to‑action  
+- Portfolio gallery  
+- About section  
+- Services section  
+- Contact section with working email link  
+- Footer with copyright  
+- Fully responsive layout  
+- External links opening in new tabs  
+- All images renamed to lowercase  
+- All images include descriptive alt text  
+
+### **Future Features**
+- Dark mode  
+- Interactive gallery  
+- Contact form with validation  
+
+---
+
+## 5. Wireframes
+
+### **Desktop Wireframe**
+![Desktop Wireframe](Portfolio/img/desktop-wireframe.png)
+
+### **Tablet Wireframe**
+![Tablet Wireframe](Portfolio/img/tablet-wireframe.png)
+
+### **Mobile Wireframe**
+![Mobile Wireframe](Portfolio/img/mobile-wireframe.png)
+
+### **Combined Wireframe Layout**
+![Combined Wireframes](Portfolio/img/wireframes-combined.png)
+
+---
+
+## 6. Technologies Used
+
+- **HTML5**  
+- **CSS3**  
+- **Bootstrap 4.5.3**  
+- **jQuery**  
+- **Font Awesome**  
+- **Google Fonts: Merriweather & Merriweather Sans**  
+- **Start Bootstrap Templates (MIT License)**  
+
+---
+
+## 7. Testing
+
+### **Manual Testing Table**
+
+| Feature | Test | Expected Result | Actual Result | Pass |
+|--------|------|----------------|----------------|------|
+| Navigation links | Click each link | Smooth scroll to section | Works correctly | ✔ |
+| External links | Click GitHub/Neocities | Opens in new tab | Works | ✔ |
+| Email link | Click email | Opens mail client | Works | ✔ |
+| Images | Load on all devices | Display correctly | Works | ✔ |
+| Responsiveness | Resize browser | Layout adjusts | Works | ✔ |
+| Alt text | Inspect images | Alt text present | All correct | ✔ |
+
+### **Device Testing**
+- iPhone 12  
+- Samsung Galaxy S21  
+- iPad 10th Gen  
+- Windows laptop  
+- MacBook Air  
+
+### **Browser Testing**
+- Chrome  
+- Firefox  
+- Safari  
+- Edge  
+
+All tests passed.
+
+---
+
+## 8. Validation
+
+### **HTML Validation**
+![HTML Validation](Portfolio/img/html-validation.jpeg)
+
+### **CSS Validation**
+![CSS Validation](Portfolio/img/css-validation.jpeg)
+
+Both files pass validation after corrections.
+
+---
+
+## 9. Deployment
+
+The site is deployed using **Neocities**.
+
+### **Steps:**
+1. Create a Neocities account  
+2. Upload all project files  
+3. Ensure folder structure matches GitHub  
+4. Publish the site  
+
+Live URL:  
+https://ali-design.neocities.org/
+
+---
+
+## 10. Credits & Attribution
+
+This project uses two open‑source templates from **Start Bootstrap**, licensed under MIT:
+
+- **Creative Theme**  
+  https://startbootstrap.com/theme/creative  
+
+- **Stylish Portfolio Theme**  
+  https://startbootstrap.com/theme/stylish-portfolio  
+
+### **Customisations I made:**
+- Replaced all template images with my own  
+- Added new sections and content  
+- Modified layout spacing and structure  
+- Updated colours and typography  
+- Added wireframes and validation images  
+- Fixed accessibility issues (alt text, links, email)  
+- Cleaned and reorganised the HTML  
+- Added custom CSS adjustments  
+
+### **Images**
+All images used in this project were created by me.
+
+---
+
+## 11. Contact
+
+**Mohammed Ali**  
+Email: [md077ali@gmail.com](mailto:md077ali@gmail.com)
+
