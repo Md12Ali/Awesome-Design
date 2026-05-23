@@ -66,54 +66,71 @@ Every section serves a clear purpose:
 
 ## Wireframe Structure
 
-The wireframes for this project were created during the planning phase to establish a clear visual structure before development began. They were designed in Adobe Photoshop & AI and follow a mobile‑first approach to ensure accessibility and responsiveness across all devices.
+The wireframes for this project were created during the planning phase to establish a clear visual structure before development began. They were designed in Adobe Photoshop and follow a mobile‑first approach to ensure accessibility and responsiveness across all devices.
 
 ### Purpose of the Wireframes
 The wireframes were created to:
 - Define the layout and hierarchy of each section
-- Plan how content should flow from top to bottom
+- Plan how content flows from top to bottom
 - Ensure consistent spacing, alignment, and readability
 - Visualise how the design adapts across desktop, tablet, and mobile
 - Identify potential usability issues early in the process
 
 ### Structure Overview
-Each wireframe includes the following core elements:
+Each wireframe includes the following core elements, accurately matching the three uploaded wireframes:
 
 #### **1. Header & Navigation**
-- Fixed navigation bar
-- Clear section links (About, Services, Portfolio, Contact)
-- Mobile hamburger menu placement
+- Fixed navigation bar at the top  
+- Logo positioned on the left  
+- Menu links: **Home, About, Portfolio, Services, Contact**  
+- Designed to collapse into a mobile menu in smaller screens  
 
 #### **2. Hero Section**
-- Large headline for immediate clarity
-- Supporting text for value proposition
-- Call‑to‑action button positioned centrally
+- Large headline for immediate clarity  
+- Subheading text directly underneath  
+- A **“Learn More”** button (not a call‑to‑action button)  
+- Clean, minimal layout to introduce the site  
 
-#### **3. About Section**
-- Two‑column layout (text + supporting visual)
-- Clear introduction and purpose statement
+#### **3. Portfolio Section**
+- Prominent section title: **Portfolio**  
+- Desktop wireframe: **8 portfolio items** arranged in two rows  
+- Tablet wireframe: **4 portfolio items**  
+- Mobile wireframe: **3 portfolio items**  
+- Consistent placeholder boxes labelled “Portfolio Item”  
+- Designed for hover or click interaction in the final build  
 
-#### **4. Services Section**
-- Three‑column grid layout
-- Icons representing each service
-- Short descriptions for quick scanning
+#### **4. About Section**
+- Two‑column layout  
+  - Left: Profile image placeholder  
+  - Right: “About Me Text” block  
+- Additional horizontal bars representing supporting text or skills  
+- Clear introduction to the creator  
 
-#### **5. Portfolio Section**
-- Responsive grid of project thumbnails
-- Space for hover or click interaction
-- Consistent image sizing for visual balance
+#### **5. Services Section**
+- Three service blocks displayed horizontally  
+- Each block includes:
+  - A user icon  
+  - A service title (Service One, Service Two, Service Three)  
+- Tablet and mobile versions stack vertically for readability  
 
 #### **6. Contact Section**
-- Simple, accessible layout
-- Email link
-- Clear call‑to‑action encouraging communication
+- Simple, accessible layout  
+- Email address displayed clearly  
+- Social media icons included (Twitter, Facebook, Email)  
+- Designed for quick communication  
+
+#### **7. Footer**
+- Clean footer containing:  
+  **© Mohammed Ali – Awesome Design**  
+- Consistent across all wireframe versions  
 
 ### Wireframe Goals
 The wireframes were designed to meet the following goals:
-- Ensure navigation remains visible and accessible
-- Present portfolio items clearly and professionally
-- Provide a clean, simple contact method
-- Support a smooth user journey from top to bottom
+- Ensure navigation remains visible and accessible  
+- Present portfolio items clearly and professionally  
+- Provide a clean, simple contact method  
+- Maintain consistent structure across desktop, tablet, and mobile  
+- Support a smooth user journey from introduction → portfolio → contact  
 
 ### Wireframe Images
 Below are the final low‑fidelity wireframes used during development:
