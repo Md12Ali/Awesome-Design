@@ -109,6 +109,16 @@ This project was built by **customising two Start Bootstrap templates**. Using t
 
 **External Resources:** Bootstrap 4.5.3, Google Fonts, Font Awesome, Magnific Popup.
 
+### AI Assistance Acknowledgement
+Parts of this project’s documentation were supported by Microsoft Copilot, which assisted with:
+- README structuring and clarity improvements
+- Grammar and formatting corrections
+- Accessibility and validation guidance
+- General development support
+
+All design decisions, code implementation, customisations, and final content were created and approved by me.
+
+
 ## 6. Testing
 **Validation Evidence:**
 - HTML passes W3C Validator → [![HTML Validation](Portfolio/img/html-validation.jpeg)](Portfolio/img/html-validation.jpeg)
