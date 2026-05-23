@@ -27,24 +27,27 @@ The site features a clean, modern, and fully responsive layout with smooth scrol
 
 ### Wireframes
 The initial layout and structure were planned using low‑fidelity wireframes created in Adobe Photoshop. These wireframes helped define the information hierarchy, responsive behaviour, and component placement before development began.
+## Wireframes (Low-Fidelity Prototypes)
 
-## Homepage Wireframe
- ![Wireframe 1](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/wireframe1.png?raw=true)
- Alt: Low‑fidelity wireframe showing hero banner, navigation, about, services, portfolio, and contact layout.
- 
- ## Portfolio Wireframe
-![Wireframe 2](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/wireframe2.png?raw=true)
-Alt: Wireframe showing responsive grid layout for project thumbnails. 
-Alt: Wireframe showing simple contact block with email and phone links.
+The initial layout and structure were planned using low‑fidelity wireframes created in Adobe Photoshop. These wireframes helped define the information hierarchy, responsive behaviour, and component placement before development began.
 
-Wireframe Acceptance Criteria
-Layout must remain consistent across desktop, tablet, and mobile.
+### Homepage Wireframe
+![Homepage Wireframe](img/wireframe-home.png)
+*Alt: Low‑fidelity wireframe showing hero banner, navigation, about, services, portfolio, and contact layout.*
 
-Navigation must remain visible and accessible.
+### Portfolio Wireframe
+![Portfolio Wireframe](img/wireframe-portfolio.png)
+*Alt: Wireframe showing responsive grid layout for project thumbnails.*
 
-Portfolio images must display clearly with hover or click interaction.
+### Contact Section Wireframe
+![Contact Wireframe](img/wireframe-contact.png)
+*Alt: Wireframe showing simple contact block with email and phone links.*
 
-Contact section must provide clear communication options.
+### Wireframe Acceptance Criteria
+- Layout must remain consistent across desktop, tablet, and mobile.
+- Navigation must remain visible and accessible.
+- Portfolio images must display clearly with hover or click interaction.
+- Contact section must provide clear communication options.
 
 ## 3. Features
 - Fixed navbar with hamburger menu and smooth anchor scrolling
