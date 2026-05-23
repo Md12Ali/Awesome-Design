@@ -192,12 +192,12 @@ The wireframes were designed to meet the following goals:
 Below are the final low‑fidelity wireframes used during development:
 
 ### Homepage Wireframe
-![Home Wireframe](Portfolio/img/home%20wireframe.jpeg)
+![Home Wireframe](Portfolio/img/home-wireframe.jpeg)
 
 *Alt: Low‑fidelity wireframe showing hero banner, navigation, about, services, portfolio, and contact layout.*
 
-### Portfolio Wireframe
-![Service Wireframe](Portfolio/img/service%20wireframe.jpeg)
+### Services Wireframe
+![Service Wireframe](Portfolio/img/service-wireframe.jpeg)
 
 *Alt: Wireframe showing responsive grid layout for project thumbnails.*
 
