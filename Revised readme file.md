@@ -26,8 +26,25 @@ The site features a clean, modern, and fully responsive layout with smooth scrol
   *Acceptance Criteria:* Proper alt attributes on all images and good contrast. **Verified:** Yes.
 
 ### Wireframes
+The initial layout and structure were planned using low‑fidelity wireframes created in Adobe Photoshop. These wireframes helped define the information hierarchy, responsive behaviour, and component placement before development began.
+
+## Homepage Wireframe
  ![Wireframe 1](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/wireframe1.png?raw=true)
+ Alt: Low‑fidelity wireframe showing hero banner, navigation, about, services, portfolio, and contact layout.
+ 
+ ## Portfolio Wireframe
 ![Wireframe 2](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/wireframe2.png?raw=true)
+Alt: Wireframe showing responsive grid layout for project thumbnails. 
+Alt: Wireframe showing simple contact block with email and phone links.
+
+Wireframe Acceptance Criteria
+Layout must remain consistent across desktop, tablet, and mobile.
+
+Navigation must remain visible and accessible.
+
+Portfolio images must display clearly with hover or click interaction.
+
+Contact section must provide clear communication options.
 
 ## 3. Features
 - Fixed navbar with hamburger menu and smooth anchor scrolling
@@ -69,7 +86,9 @@ This project was built by **customising two Start Bootstrap templates**. Using t
 ## 6. Testing
 **Validation Evidence:**
 - HTML passes W3C Validator → [img/html-validation.png](img/html-validation.png)
+- Alt: Screenshot showing W3C HTML validation with no errors.
 - CSS passes Jigsaw Validator → [img/css-validation.png](img/css-validation.png)
+- Alt: Screenshot showing Jigsaw CSS validation with no errors.
 
 **Manual Testing Summary:**
 
@@ -93,11 +112,17 @@ This project was built by **customising two Start Bootstrap templates**. Using t
 The website is live on **Neocities** at: [https://ali-design.neocities.org/](https://ali-design.neocities.org/)
 
 ### Deployment Steps
-1. Clone the repository: `git clone https://github.com/Md12Ali/Awesome-Design.git`
-2. Open `index.html` locally
-3. Upload all files to Neocities
-4. Verify the live site matches the repository
+Deployment Steps
+Clone the repository:
+git clone https://github.com/Md12Ali/Awesome-Design.git
 
+Open index.html locally
+
+Upload all files to Neocities
+
+Verify the live site matches the repository
+
+Final requirement: Ensure the Neocities version matches GitHub exactly (Path‑to‑Pass requirement)
 ## 9. How to Run Locally
 
 1. Clone the repository  
