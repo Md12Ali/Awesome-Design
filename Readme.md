@@ -293,8 +293,7 @@ The site was deployed using the following steps:
    - `img/` folder  
    - `Portfolio/` folder  
 4. Ensured all files and subfolders matched the GitHub structure  
-5. Published the site at:  
-   **https://ali-design.neocities.org/**
+
 
 ### 3. Updating the Live Site
 Whenever changes are made:
