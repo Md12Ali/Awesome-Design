@@ -32,8 +32,7 @@ The initial layout and structure were planned using low‑fidelity wireframes cr
 The initial layout and structure were planned using low‑fidelity wireframes created in Adobe Photoshop. These wireframes helped define the information hierarchy, responsive behaviour, and component placement before development began.
 
 ### Homepage Wireframe
-[![Homepage Wireframe](img/wireframe-home.png)](Portfolio/img/home%20wireframe.jpeg)
-
+![Home Wireframe](Portfolio/img/home%20wireframe.jpeg)
 
 *Alt: Low‑fidelity wireframe showing hero banner, navigation, about, services, portfolio, and contact layout.*
 
