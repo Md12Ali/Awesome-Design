@@ -202,7 +202,7 @@ Below are the final low‑fidelity wireframes used during development:
 *Alt: Wireframe showing responsive grid layout for project thumbnails.*
 
 ### Contact Section Wireframe
-![Contact Wireframe](Portfolio/img/contact%20wireframe.jpeg)
+![Contact Wireframe](Portfolio/img/contact-wireframe.jpeg)
 
 *Alt: Wireframe showing simple contact block with email link.*
 
