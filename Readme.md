@@ -44,7 +44,7 @@ The [Testing section](#user-story-verification) verifies each story against the 
 ### Design principles
 - **Simplicity:** clean sections, clear headings and only four menu links.
 - **Information hierarchy:** introduction first (Hero, About), proof of work second (Services, Portfolio) and contact last.
-- **Consistency:** one teal brand colour (`#1997ab`) on buttons, dividers and section backgrounds, with the same fonts and icon style throughout.
+- **Consistency:** one teal brand colour (`#1997ab`) on dividers and section backgrounds, the same grey button style, and the same fonts and icon style throughout.
 - **User control:** nothing plays or moves on its own. Every action (menu, scrolling, opening a project) is started by the user.
 - **Mobile first:** the Bootstrap grid stacks content on small screens and spreads it out on larger ones.
 
@@ -131,7 +131,7 @@ This project was built by customising two Start Bootstrap templates. Both are re
 | [Start Bootstrap – Creative v6.0.4](https://startbootstrap.com/theme/creative) | `css/styles.css`, `js/scripts.js`, base layout of `index.html` | Bootstrap 4.5.3 CSS, navigation bar, hero (masthead), About, Portfolio and Contact layouts, smooth scrolling and lightbox script |
 | [Start Bootstrap – Stylish Portfolio v5.0.9](https://startbootstrap.com/theme/stylish-portfolio) | `css/stylish-portfolio.css` | Services section layout and round service icons |
 
-The template CSS and JavaScript files have not been edited. All of my own CSS is in a separate file, `css/custom.css`, which loads after the template files and overrides them. In `index.html`, the sections I customised are marked with `<!-- ... (customised: ...) -->` comments.
+My colour changes are no longer inside the template files. I have trimmed some unused rules from `stylish-portfolio.css`, but otherwise the template CSS and JavaScript are as downloaded. All of my own CSS is in a separate file, `css/custom.css`, which loads after the template files and overrides them. In `index.html`, the sections I customised are marked with `<!-- ... (customised: ...) -->` comments.
 
 ### What I customised (my own work)
 - **Content:** all text (headline, introduction, About bio, the four service descriptions and contact details).
@@ -141,7 +141,9 @@ The template CSS and JavaScript files have not been edited. All of my own CSS is
 - **Services:** four services with my own choice of Font Awesome icons.
 - **Contact:** working `tel:`, `mailto:` and GitHub links.
 - **`css/custom.css`** (all my own CSS):
-  - Teal brand colour (`#1997ab`) replacing the template's orange on buttons, dividers and section backgrounds
+  - Teal brand colour (`#1997ab`) replacing the Creative template's orange on dividers and section backgrounds
+  - Grey buttons (`#6c757d`) replacing the Stylish Portfolio blue
+  - Media query that shrinks the logo on screens below 992px, so the mobile navbar does not cover the headline
   - Merriweather body font
   - Corrected path for the hero background image
   - Portfolio image scaling and hover zoom
@@ -164,7 +166,8 @@ The template CSS and JavaScript files have not been edited. All of my own CSS is
 ### Tools and AI assistance
 - **Gemini and Microsoft Copilot:** research and help writing documentation.
 - **Claude (Anthropic):** helped consolidate this README into one document and apply the assessor's fixes:
-  - Moving my colour changes into `custom.css`
+  - Moving my colour changes out of the template files into `custom.css`
+  - The mobile navbar fix
   - ARIA attributes and the `<main>` landmark
   - The link fixes
   - The hero background path
@@ -182,7 +185,7 @@ Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve 
 
 ![W3C Nu HTML Checker result for ali-design.neocities.org showing no errors or warnings](Portfolio/img/html-validation.jpeg)
 
-**CSS:** W3C Jigsaw CSS Validator, tested on the live site. Result: no errors.
+**CSS:** W3C Jigsaw CSS Validator (CSS level 3 + SVG), tested on the live site. Result: no errors.
 
 ![W3C CSS Validator result for ali-design.neocities.org showing no errors](Portfolio/img/css-validation.jpeg)
 
@@ -230,7 +233,7 @@ Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve 
 ## 7. Bugs
 | Bug | Cause | Fix | Status |
 |-----|-------|-----|--------|
-| Navbar overlapped content on mobile | Fixed navbar covered the top of sections | CSS media queries | Fixed |
+| Navbar covered the top of the hero headline on phones | The full-size logo pushed the menu button onto a second line, making the fixed navbar too tall | Media query in `custom.css` that shrinks the logo below 992px | Fixed |
 | External links opened in the same tab | Links were missing `target="_blank"` | Added `target="_blank" rel="noopener noreferrer"` | Fixed |
 | Email link gave an error instead of opening the email app | `href` was missing the `mailto:` prefix | Added `mailto:` | Fixed |
 | Portfolio images had empty alt text | Template placeholders not filled in | Wrote descriptive alt text for all six images and the logo | Fixed |

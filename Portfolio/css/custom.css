@@ -10,12 +10,14 @@ body {
     font-family: "Merriweather", system-ui, sans-serif;
 }
 
-/* Brand colour: teal instead of the Creative template's orange (#f4623a) */
+/* Buttons: neutral grey instead of the Stylish Portfolio blue (#1D809F).
+   !important is needed because the template sets its colour with !important */
 .btn-primary {
-    background-color: #1997ab;
-    border-color: #1997ab;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
 }
 
+/* Brand colour: teal instead of the Creative template's orange (#f4623a) */
 .bg-primary {
     background-color: #1997ab !important;
 }
@@ -60,4 +62,13 @@ header.masthead {
 
 .btn-primary:hover {
     transform: translateY(-3px);
+}
+
+/* Mobile and tablet: a smaller logo keeps the menu button on the same line,
+   so the fixed navbar no longer covers the top of the hero headline */
+@media (max-width: 991.98px) {
+    #mainNav .navbar-brand img {
+        height: 48px;
+        width: auto;
+    }
 }
