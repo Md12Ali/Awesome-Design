@@ -1,19 +1,46 @@
 /* =============================================
-   CUSTOM CSS - Mohammed Ali's Modifications
+   CUSTOM CSS - Mohammed Ali's own styles
+   Everything in this file is my own work.
+   It loads after the template CSS (styles.css and
+   stylish-portfolio.css) so these rules override them.
 ============================================= */
 
+/* Body font: Merriweather */
 body {
     font-family: "Merriweather", system-ui, sans-serif;
 }
 
-/* Fix image scaling */
+/* Brand colour: teal instead of the Creative template's orange (#f4623a) */
+.btn-primary {
+    background-color: #1997ab;
+    border-color: #1997ab;
+}
+
+.bg-primary {
+    background-color: #1997ab !important;
+}
+
+hr.divider {
+    border-color: #1997ab;
+}
+
+/* Hero background: the Creative template points to ../assets/img/,
+   which does not exist in this project */
+header.masthead {
+    background: linear-gradient(to bottom, rgba(31, 29, 28, 0.8) 0%, rgba(10, 8, 6, 0.8) 100%), url("../img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Portfolio: scale images to fill each tile */
 #portfolio .img-fluid {
     width: 100%;
     height: auto;
     display: block;
 }
 
-/* Portfolio hover effect */
+/* Portfolio: zoom effect on hover */
 .portfolio-box {
     overflow: hidden;
 }
@@ -26,7 +53,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Button hover improvement */
+/* Buttons: lift slightly on hover */
 .btn-primary {
     transition: all 0.3s ease;
 }

@@ -1,386 +1,256 @@
 # Awesome Design — Portfolio Website
 
-**Live Site:** [https://ali-design.neocities.org/](https://ali-design.neocities.org/#page-top)  
+**Live site:** [https://ali-design.neocities.org/](https://ali-design.neocities.org/)  
 **Repository:** [https://github.com/Md12Ali/Awesome-Design](https://github.com/Md12Ali/Awesome-Design)  
 **Author:** Mohammed Ali  
 **Unit:** Unit 1 – User Centric Front End Development (Y/650/3525)
 
-![Portfolio Showcase Screenshot](https://github.com/Md12Ali/Awesome-Design/blob/main/Portfolio/img/101.png?raw=true)  
-
-
-## 1. Project Overview
-Awesome Design is a professional single-page portfolio website built to showcase my skills as a Designer and Front-End Developer to potential clients, employers, and collaborators.
-
-The site features a clean, modern, and fully responsive layout with smooth scrolling navigation across five main sections: Hero, About, Services, Portfolio, and Contact.
-
-## 2. UX Design
-
-### User Stories with Acceptance Criteria
-
-| User Story | Acceptance Criteria | Verified |
-|------------|---------------------|----------|
-| As a new visitor, I want to immediately understand the purpose of the site | Clear hero section with headline and call-to-action | Yes |
-| As an employer, I want to see services and real projects | Dedicated Services and Portfolio sections with screenshots | Yes |
-| As a mobile user, I want the site to work well on my device | Fully responsive layout using Bootstrap grid | Yes |
-| As an accessibility user, I want proper support | Descriptive alt text, working links, good contrast | Yes |
-
-
-  ## Core Design Principles
-
-The design of this portfolio website is guided by key UX and UI principles to ensure clarity, accessibility, and a smooth user experience across all devices.
-
-### 1. Simplicity
-The layout avoids unnecessary complexity, focusing on clean sections, clear typography, and intuitive navigation. Users can quickly understand the purpose of the site without distractions.
-
-### 2. Consistency
-Consistent spacing, colours, typography, and iconography are used throughout the site. This creates a unified visual identity and helps users predict how elements behave.
-
-## Accessibility
-
-Accessibility was a key focus throughout the development of this project to ensure the website is usable by as many people as possible, including users with visual, motor, or cognitive impairments. The site follows core WCAG 2.1 AA principles and includes several features designed to improve accessibility.
-
-### 1. Semantic HTML Structure
-The website uses semantic HTML elements such as:
-- `<header>`
-- `<nav>`
-- `<section>`
-- `<main>`
-- `<footer>`
-
-This improves screen‑reader navigation and helps assistive technologies understand the structure of the page.
-
-### 2. Alt Text for All Images
-All images include descriptive `alt` attributes so users with screen readers can understand the content.  
-Example: portfolio items, wireframes, and profile images all have meaningful alt descriptions.
-
-### 3. High Contrast & Readable Typography
-- Text and background colours were chosen to maintain strong contrast.
-- Google Fonts (Merriweather & Merriweather Sans) provide high readability.
-- Font sizes are large enough for comfortable reading on all devices.
-
-### 4. Keyboard Navigation
-The site can be navigated using only the keyboard:
-- Tab order follows a logical sequence  
-- Links and buttons are focusable  
-- Navigation bar remains accessible on all screen sizes  
-
-### 5. Accessible Links
-- External links use `target="_blank"` with `rel="noopener"` for safety  
-- Email link uses `mailto:` for direct access  
-- Link text is descriptive (e.g., “View Portfolio” instead of “Click Here”)
-
-### 6. Responsive & Mobile‑Friendly Layout
-The mobile‑first design ensures:
-- No horizontal scrolling  
-- Touch‑friendly buttons  
-- Proper spacing between interactive elements  
-
-### 7. ARIA & Label Improvements
-Where needed, ARIA attributes were added to improve clarity for assistive technologies:
-- `aria-label` for navigation  
-- Icons marked as decorative using `aria-hidden="true"`  
-
-### 8. Consistent Layout & Predictable Behaviour
-Users can easily predict:
-- Where navigation is located  
-- How sections flow  
-- How buttons and links behave  
-
-This reduces cognitive load and improves usability for all visitors.
-
-### 9. Validation & Testing
-Accessibility was checked through:
-- Manual keyboard testing  
-- Colour contrast checks  
-- Screen‑reader friendly structure  
-- HTML validation to ensure clean, error‑free markup  
-
-The site meets the accessibility expectations for Unit 1 and provides an inclusive experience across devices.
-
-
-These choices ensure the site is usable for a wide range of users, including those with visual or motor impairments.
-
-### 4. Mobile‑First Responsiveness
-The design was planned and built using a mobile‑first approach. The layout adapts seamlessly across mobile, tablet, and desktop devices using Bootstrap’s responsive grid system.
-
-### 5. Visual Hierarchy
-Content is structured using headings, spacing, and typography to guide the user’s eye. Important elements such as the hero headline, call‑to‑action buttons, and portfolio items are emphasised visually.
-
-### 6. User Control & Clarity
-Navigation is always visible, links behave predictably, and interactive elements provide visual feedback. This ensures users always know where they are and how to move through the site.
-
-### 7. Performance & Efficiency
-Images are optimised, scripts are lightweight, and the layout avoids unnecessary animations. This ensures fast loading times and smooth performance on all devices.
-
-### 8. Purpose‑Driven Content
-Every section serves a clear purpose:
-- Hero: Introduce the brand  
-- About: Explain who I am  
-- Services: Show what I offer  
-- Portfolio: Display my work  
-- Contact: Provide a simple way to reach me  
-
-## Wireframe Structure
-
-The wireframes for this project were created during the planning phase to establish a clear visual structure before development began. They were designed in Adobe Photoshop and follow a mobile‑first approach to ensure accessibility and responsiveness across all devices.
-
-### Purpose of the Wireframes
-The wireframes were created to:
-- Define the layout and hierarchy of each section
-- Plan how content flows from top to bottom
-- Ensure consistent spacing, alignment, and readability
-- Visualise how the design adapts across desktop, tablet, and mobile
-- Identify potential usability issues early in the process
-
-### Structure Overview
-Each wireframe includes the following core elements, accurately matching the three uploaded wireframes:
-
-#### **1. Header & Navigation**
-- Fixed navigation bar at the top  
-- Logo positioned on the left  
-- Menu links: **Home, About, Portfolio, Services, Contact**  
-- Designed to collapse into a mobile menu in smaller screens  
-
-#### **2. Hero Section**
-- Large headline for immediate clarity  
-- Subheading text directly underneath  
-- A **“Learn More”** button (not a call‑to‑action button)  
-- Clean, minimal layout to introduce the site  
-
-#### **3. Portfolio Section**
-- Prominent section title: **Portfolio**  
-- Desktop wireframe: **8 portfolio items** arranged in two rows  
-- Tablet wireframe: **4 portfolio items**  
-- Mobile wireframe: **3 portfolio items**  
-- Consistent placeholder boxes labelled “Portfolio Item”  
-- Designed for hover or click interaction in the final build  
-
-#### **4. About Section**
-- Two‑column layout  
-  - Left: Profile image placeholder  
-  - Right: “About Me Text” block  
-- Additional horizontal bars representing supporting text or skills  
-- Clear introduction to the creator  
-
-#### **5. Services Section**
-- Three service blocks displayed horizontally  
-- Each block includes:
-  - A user icon  
-  - A service title (Service One, Service Two, Service Three)  
-- Tablet and mobile versions stack vertically for readability  
-
-#### **6. Contact Section**
-- Simple, accessible layout  
-- Email address displayed clearly  
-- Social media icons included (Twitter, Facebook, Email)  
-- Designed for quick communication  
-
-#### **7. Footer**
-- Clean footer containing:  
-  **© Mohammed Ali – Awesome Design**  
-- Consistent across all wireframe versions  
-
-### Wireframe Goals
-The wireframes were designed to meet the following goals:
-- Ensure navigation remains visible and accessible  
-- Present portfolio items clearly and professionally  
-- Provide a clean, simple contact method  
-- Maintain consistent structure across desktop, tablet, and mobile  
-- Support a smooth user journey from introduction → portfolio → contact  
-
-### Wireframe Images
-Below are the final low‑fidelity wireframes used during development:
-
-### Homepage Wireframe
-![Home Wireframe](Portfolio/img/home-wireframe.jpeg)
-
-*Alt: Low‑fidelity wireframe showing hero banner, navigation, about, services, portfolio, and contact layout.*
-
-### Services Wireframe
-![Service Wireframe](Portfolio/img/service-wireframe.jpeg)
-
-*Alt: Wireframe showing responsive grid layout for project thumbnails.*
-
-### Contact Section Wireframe
-![Contact Wireframe](Portfolio/img/contact-wireframe.jpeg)
-
-*Alt: Wireframe showing simple contact block with email link.*
-
-### Wireframe Acceptance Criteria
-- Layout must remain consistent across desktop, tablet, and mobile.
-- Navigation must remain visible and accessible.
-- Portfolio images must display clearly with hover or click interaction.
-- Contact section must provide clear communication options.
-
-## 3. Features
-- Fixed navbar with hamburger menu and smooth anchor scrolling
-- Hero section with strong value proposition
-- About section highlighting professional background
-- Responsive services grid with icons
-- Interactive portfolio gallery with lightbox effect
-- Contact section with working email and phone links
-- Hover effects and professional visual feedback
-
-### **Existing Features**
-- Responsive navigation bar  
-- Hero section with call‑to‑action  
-- Portfolio gallery  
-- About section  
-- Services section  
-- Contact section with working email link  
-- Footer with copyright  
-- Fully responsive layout  
-- External links opening in new tabs  
-- All images renamed to lowercase  
-- All images include descriptive alt text  
-
-### **Future Features**
-- Dark mode  
-- Interactive gallery  
-- Contact form with validation  
-
-
-
-## 4. Technologies Used
-- **HTML5** – Semantic markup
-- **CSS3** – Custom styles and overrides
-- **Framework:** Bootstrap 4.5.3 (grid system, navbar, responsiveness)
-- **Typography:** Google Fonts – Merriweather and Merriweather Sans
-- **Icons:** Font Awesome 5.15.1
-- **Interactivity:** jQuery, Magnific Popup
-- **Tools:** Adobe Photoshop & Illustrator, Git/GitHub, Neocities
-
-## 5. Credits & Attribution
-This project was built by **customising two Start Bootstrap templates**. Using templates is normal and acceptable in web development.
-
-### Templates Used
-- **Start Bootstrap – Creative v6.0.4** (MIT License) – Core structure, masthead, navigation, `styles.css`, and `scripts.js`
-- **Start Bootstrap – Stylish Portfolio v5.0.9** (MIT License) – Portfolio and services styling (`stylish-portfolio.css`)
-
-### What I Customised (My Own Work)
-- All personal text content (About, Services, Contact)
-- Portfolio gallery with my own project screenshots
-- Custom logo design and integration
-- Colour scheme adjustments to match my branding
-- Accessibility improvements (alt text, mailto links, `target="_blank"`)
-- File renaming to lowercase with descriptive names
-- Custom CSS overrides in `css/custom.css`
-- Full documentation and testing
-
-**External Resources:** Bootstrap 4.5.3, Google Fonts, Font Awesome, Magnific Popup.
-
-### AI Assistance Acknowledgement
-Parts of this project’s documentation were supported by Microsoft Copilot, which assisted with:
-- README structuring and clarity improvements
-- Grammar and formatting corrections
-- Accessibility and validation guidance
-- General development support
-
-All design decisions, code implementation, customisations, and final content were created and approved by me.
-
-
-## 6. Testing
-**Validation Evidence:**
-- HTML passes W3C Validator → [![HTML Validation](Portfolio/img/html-validation.jpeg)](Portfolio/img/html-validation.jpeg)
-
-- Alt: Screenshot showing W3C HTML validation with no errors.
-- CSS passes Jigsaw Validator → [![CSS Validation](Portfolio/img/css-validation.jpeg)](Portfolio/img/css-validation.jpeg)
-
-- Alt: Screenshot showing Jigsaw CSS validation with no errors.
-
-**Manual Testing Summary:**
-
-### **Manual Testing Table**
-
-| Feature | Test | Expected Result | Actual Result | Pass |
-|--------|------|----------------|----------------|------|
-| Navigation links | Click each link | Smooth scroll to section | Works correctly | ✔ |
-| External links | Click GitHub/Neocities | Opens in new tab | Works | ✔ |
-| Email link | Click email | Opens mail client | Works | ✔ |
-| Images | Load on all devices | Display correctly | Works | ✔ |
-| Responsiveness | Resize browser | Layout adjusts | Works | ✔ |
-| Alt text | Inspect images | Alt text present | All correct | ✔ |
-
-### **Device Testing**
-- iPhone 12  
-- Samsung Galaxy S21  
-- iPad 10th Gen  
-- Windows laptop  
-- MacBook Air  
-
-### **Browser Testing**
-- Chrome  
-- Firefox  
-- Safari  
-- Edge
-
-### Acknowledgments
-I would like to express my sincere gratitude to my assessor, Yassin Hassan, for the constructive feedback and clear guidance provided during the assessment process. These insights were instrumental in helping me improve the accessibility, documentation, and technical compliance of this portfolio.
-
-I also acknowledge the Start Bootstrap team for their high-quality, open-source templates, which provided the foundational structure for this project, and the broader web development community for the documentation that supported my learning journey.
-
-## 7. Bugs Fixed
-| Bug                          | Fix Applied                     | Status |
-|-----------------------------|---------------------------------|--------|
-| Navbar overlap on mobile    | CSS media queries               | Fixed  |
-| Broken email link           | Added `mailto:` prefix          | Fixed  |
-| Capitalised image filenames | Renamed to lowercase            | Fixed  |
-
-## 8 Deployment Process
-
-The website is deployed using **Neocities**, a free static hosting platform suitable for HTML, CSS, JavaScript, and image-based projects. The deployment process ensures that the live version of the site matches the GitHub repository exactly, as required by the Unit 1 assessment criteria.
-
-### 1. Preparing the Project
-Before deployment, the following steps were completed:
-- All files were organised into a clear folder structure (`Portfolio/`, `img/`, `css/`, `js/`)
-- Image filenames were converted to lowercase for consistency
-- HTML and CSS were validated using W3C validators
-- All links, navigation anchors, and file paths were tested locally
-
-### 2. Uploading to Neocities
-The site was deployed using the following steps:
-
-1. Created a Neocities account  
-2. Logged into the Neocities dashboard  
-3. Uploaded the entire project folder, including:  
-   - `index.html`  
-   - `css/` folder  
-   - `js/` folder  
-   - `img/` folder  
-   - `Portfolio/` folder  
-4. Ensured all files and subfolders matched the GitHub structure  
-
-
-### 3. Updating the Live Site
-Whenever changes are made:
-1. Files are updated in GitHub  
-2. The same updated files are re-uploaded to Neocities  
-3. The live site is refreshed to confirm the update  
-4. A final check is performed to ensure no broken links or missing assets
-
-### 4. Verification (Path‑to‑Pass Requirement)
-After deployment, the following checks were completed:
-- The live Neocities version matches the GitHub repository exactly  
-- All images load correctly  
-- Navigation links work on desktop and mobile  
-- External links open in new tabs  
-- Email link functions correctly  
-- Portfolio items display as intended  
-- No console errors appear in the browser  
-
-### 5. Live Deployment Link
-The final deployed website can be viewed at:  
-**https://ali-design.neocities.org/**
-
-## 9. How to Run Locally
-
-1. Clone the repository  
-2. Open `index.html` in any browser  
-3. No installation required  
+![Hero section of the live Awesome Design portfolio website](Portfolio/img/screenshot-hero.png)
+
+## Contents
+1. [Project Overview](#1-project-overview)
+2. [UX Design](#2-ux-design)
+3. [Features](#3-features)
+4. [Technologies Used](#4-technologies-used)
+5. [Credits and Attribution](#5-credits-and-attribution)
+6. [Testing](#6-testing)
+7. [Bugs](#7-bugs)
+8. [Deployment](#8-deployment)
 
 ---
 
-## 10. Contact
+## 1. Project Overview
+Awesome Design is a single-page portfolio website that presents my work as a designer and front-end developer.
 
-**Mohammed Ali**  
-Email: **mohammed_12ali@outlook.com**
+**Who it is for:** potential clients looking for a web or graphic designer, and employers looking at my skills and previous projects.
+
+The page has five sections, reached from a fixed navigation bar with smooth scrolling: **Hero, About, Services, Portfolio and Contact**.
+
+**How it was built:** the site is built by customising two free Start Bootstrap templates, **Creative** and **Stylish Portfolio**. It is not written from scratch. [Section 5](#5-credits-and-attribution) lists exactly which code comes from the templates and which is my own work.
+
+## 2. UX Design
+
+### User stories and acceptance criteria
+| # | User story | Acceptance criteria |
+|---|------------|---------------------|
+| 1 | As a **new visitor**, I want to understand what the site is about straight away, so I can decide whether to stay. | The first screen shows a headline saying who I am and what I do. There is a button leading to the rest of the page. The menu is visible. |
+| 2 | As an **employer**, I want to see real projects I have built, so I can judge my skills. | A Portfolio section shows at least six real projects, each with a name and category. Clicking a project opens a larger image. |
+| 3 | As a **mobile user**, I want the site to work on my phone, so I can browse it anywhere. | On screens narrower than 992px the menu collapses into a menu button. Sections stack in one column. There is no horizontal scrolling. |
+| 4 | As a **potential client**, I want an easy way to contact Mohammed, so I can discuss a project. | The Contact section shows a phone number and an email address. Both are clickable links that open the dialler or email app. |
+| 5 | As a **screen-reader user**, I want images and page areas described, so I can understand the content. | Every content image has descriptive alt text. The navigation is labelled. Decorative icons are hidden from screen readers. |
+
+The [Testing section](#user-story-verification) verifies each story against the live site, with screenshots.
+
+### Design principles
+- **Simplicity:** clean sections, clear headings and only four menu links.
+- **Information hierarchy:** introduction first (Hero, About), proof of work second (Services, Portfolio) and contact last.
+- **Consistency:** one teal brand colour (`#1997ab`) on buttons, dividers and section backgrounds, with the same fonts and icon style throughout.
+- **User control:** nothing plays or moves on its own. Every action (menu, scrolling, opening a project) is started by the user.
+- **Mobile first:** the Bootstrap grid stacks content on small screens and spreads it out on larger ones.
+
+### Typography
+- **Merriweather Sans** for headings and navigation. This comes from the Creative template.
+- **Merriweather** for body text. I set this in `custom.css`.
+- Both fonts are loaded from Google Fonts.
+
+### Wireframes
+I made low-fidelity wireframes in Adobe Photoshop before building the site, to plan the layout on desktop, tablet and mobile.
+
+![Low-fidelity homepage wireframe showing navigation, hero, about, services, portfolio and contact](Portfolio/img/home-wireframe.jpeg)
+
+![Wireframe of the services blocks and portfolio grid on desktop, tablet and mobile](Portfolio/img/service-wireframe.jpeg)
+
+![Wireframe of the contact block with email address and social icons](Portfolio/img/contact-wireframe.jpeg)
+
+**Changes from wireframe to final site:**
+- The final site has four services instead of three, and six portfolio projects.
+- The About section is text only, with no profile image.
+- The menu follows the order of the sections on the page: About, Services, Portfolio, Contact.
+
+## 3. Features
+
+### Existing features
+- **Navigation:** fixed navigation bar with my logo. It collapses into a menu button on small screens and scrolls smoothly to each section.
+- **Hero:** headline ("I am a designer & Front-end developer"), short introduction and a "Find Out More" button.
+- **About:** introduction to me and the tools I use, with a "Get Started!" button.
+- **Services:** four services with icons: Responsive Design, Coding, Logo Design and Graphic Design.
+- **Portfolio:** six of my projects (Welfare Trust, Greenpeace, Fairy Tales, Meet-Up, Let It Grow and CSS Fix It). Each has a hover caption and opens in a lightbox.
+- **Contact:** clickable phone number (`tel:`), email link (`mailto:`) and a link to my GitHub profile.
+- **Footer:** copyright line with the template credit.
+
+### Accessibility
+- **Semantic elements:** `<nav>`, `<header>`, `<main>`, `<section>` and `<footer>`, with a single `<h1>`.
+- **Alt text:** every content image has descriptive alt text, including the logo and all six portfolio images:
+
+  | Image file | Alt text |
+  |------------|----------|
+  | `logo.png` | Mohammed Ali Design Portfolio Logo |
+  | `welfare-trust.png` | AU Welfare Trust charity website user interface mockup |
+  | `greenpeace.png` | Greenpeace global warming responsive campaign website |
+  | `fairy-tales.png` | Grimm Fairy Tales interactive web presentation |
+  | `meetup.png` | Meet-Up event registration website |
+  | `grow.png` | Let It Grow agricultural business website |
+  | `css-fix.png` | CSS Fix It responsive layout project |
+
+- **ARIA:**
+  - The navigation has `aria-label="Main navigation"`.
+  - The menu button has `aria-label="Toggle navigation"`.
+  - Decorative icons have `aria-hidden="true"`.
+- **Links:**
+  - The email link uses `mailto:` and the phone number uses `tel:`.
+  - External links, the email link and the portfolio images open in a new tab with `target="_blank" rel="noopener noreferrer"`.
+- **Meta description:** included for search engines and link previews.
+
+### Future features
+- Contact form with validation
+- Separate case-study pages for each portfolio project
+- Dark mode
+
+## 4. Technologies Used
+| Technology | Version | Used for |
+|------------|---------|----------|
+| HTML5 | | Page structure and semantic markup |
+| CSS3 | | Template styles plus my own styles in `css/custom.css` |
+| Bootstrap | 4.5.3 | Grid, navbar and responsive utilities. The CSS is compiled into the Creative template's `styles.css`; the JavaScript bundle loads from a CDN. |
+| Google Fonts | | Merriweather and Merriweather Sans |
+| Font Awesome | 5.15.1 | Service, contact and GitHub icons |
+| jQuery | 3.5.1 | Required by Bootstrap and the template script |
+| jQuery Easing | 1.4.1 | Smooth scrolling |
+| Magnific Popup | 1.1.0 | Portfolio image lightbox |
+| Adobe Photoshop and Illustrator | | Wireframes, logo and graphics |
+| Git and GitHub | | Version control |
+| Neocities | | Hosting |
+
+## 5. Credits and Attribution
+
+### Templates used
+This project was built by customising two Start Bootstrap templates. Both are released under the MIT License.
+
+| Template | Files from the template | What it provides |
+|----------|-------------------------|------------------|
+| [Start Bootstrap – Creative v6.0.4](https://startbootstrap.com/theme/creative) | `css/styles.css`, `js/scripts.js`, base layout of `index.html` | Bootstrap 4.5.3 CSS, navigation bar, hero (masthead), About, Portfolio and Contact layouts, smooth scrolling and lightbox script |
+| [Start Bootstrap – Stylish Portfolio v5.0.9](https://startbootstrap.com/theme/stylish-portfolio) | `css/stylish-portfolio.css` | Services section layout and round service icons |
+
+The template CSS and JavaScript files have not been edited. All of my own CSS is in a separate file, `css/custom.css`, which loads after the template files and overrides them. In `index.html`, the sections I customised are marked with `<!-- ... (customised: ...) -->` comments.
+
+### What I customised (my own work)
+- **Content:** all text (headline, introduction, About bio, the four service descriptions and contact details).
+- **Portfolio:** my own six project screenshots, with project names, categories and alt text.
+- **Logo:** designed in Adobe Illustrator and added to the navigation bar. I also made the favicon.
+- **Combining the templates:** the Creative template's page structure is combined with the Stylish Portfolio services section.
+- **Services:** four services with my own choice of Font Awesome icons.
+- **Contact:** working `tel:`, `mailto:` and GitHub links.
+- **`css/custom.css`** (all my own CSS):
+  - Teal brand colour (`#1997ab`) replacing the template's orange on buttons, dividers and section backgrounds
+  - Merriweather body font
+  - Corrected path for the hero background image
+  - Portfolio image scaling and hover zoom
+  - Button hover lift effect
+- **Accessibility:**
+  - Alt text on every image
+  - ARIA labels, and decorative icons hidden from screen readers
+  - A `<main>` landmark
+  - Meta description
+- **Files:** renamed all images to lowercase, descriptive names.
+- **Documentation:** wireframes, testing and this README.
+
+### External resources
+- Bootstrap 4.5.3 (included in `styles.css`)
+- Google Fonts: Merriweather and Merriweather Sans
+- Font Awesome 5.15.1
+- jQuery 3.5.1 and jQuery Easing 1.4.1
+- Magnific Popup 1.1.0 (image lightbox)
+
+### Tools and AI assistance
+- **Gemini and Microsoft Copilot:** research and help writing documentation.
+- **Claude (Anthropic):** helped consolidate this README into one document and apply the assessor's fixes:
+  - Moving my colour changes into `custom.css`
+  - ARIA attributes and the `<main>` landmark
+  - The link fixes
+  - The hero background path
+
+  I reviewed every change.
+- **Adobe Photoshop and Illustrator:** wireframes, logo and graphics.
+
+### Acknowledgements
+Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve the accessibility, documentation and accuracy of this project.
+
+## 6. Testing
+
+### Code validation
+**HTML:** W3C Nu HTML Checker, tested on the live site. Result: no errors or warnings.
+
+![W3C Nu HTML Checker result for ali-design.neocities.org showing no errors or warnings](Portfolio/img/html-validation.jpeg)
+
+**CSS:** W3C Jigsaw CSS Validator, tested on the live site. Result: no errors.
+
+![W3C CSS Validator result for ali-design.neocities.org showing no errors](Portfolio/img/css-validation.jpeg)
+
+### User story verification
+| # | User story | How it is met | Evidence | Result |
+|---|------------|---------------|----------|--------|
+| 1 | New visitor understands the site | The hero headline "I am a designer & Front-end developer" and the menu are visible on the first screen. | Screenshot 1 | Pass |
+| 2 | Employer sees real projects | Six projects shown in the Portfolio grid. Clicking one opens it in the lightbox. | Screenshot 2 | Pass |
+| 3 | Site works on mobile | Below 992px the menu collapses and sections stack in one column, with no horizontal scrolling. | Screenshot 3 | Pass |
+| 4 | Client can make contact | Phone (`tel:`) and email (`mailto:`) links in the Contact section open the dialler and email app. | Screenshot 4 | Pass |
+| 5 | Screen-reader user understands content | All images have alt text. The navigation is labelled and icons are hidden. The HTML validator passes. | Alt text table in [section 3](#accessibility), HTML validation above | Pass |
+
+**Screenshot 1:** hero section on desktop  
+![Hero section with headline, introduction and navigation](Portfolio/img/screenshot-hero.png)
+
+**Screenshot 2:** portfolio grid with six projects  
+![Recent Projects grid showing six portfolio screenshots](Portfolio/img/screenshot-portfolio.png)
+
+**Screenshot 3:** site on a mobile screen  
+![Portfolio site on a mobile screen with the collapsed menu button](Portfolio/img/screenshot-mobile.png)
+
+**Screenshot 4:** contact section  
+![Contact section showing phone number, email address and GitHub link](Portfolio/img/screenshot-contact.png)
+
+### Manual testing
+| Area | Test | Expected result | Result |
+|------|------|-----------------|--------|
+| Navigation | Click About, Services, Portfolio and Contact | Page scrolls smoothly to that section | Pass |
+| Logo | Click the logo | Page scrolls back to the top | Pass |
+| Mobile menu | Tap the menu button below 992px | Menu opens and closes | Pass |
+| Hero button | Click "Find Out More" | Scrolls to About | Pass |
+| About button | Click "Get Started!" | Scrolls to Services | Pass |
+| Portfolio | Click each of the six projects | Image opens in the lightbox | Pass |
+| Portfolio hover | Hover over a project | Image zooms and the caption shows | Pass |
+| Email link | Click mohammed_12ali@outlook.com | Email app opens with the address filled in | Pass |
+| Phone link | Tap +44 7476 283894 on a phone | Dialler opens with the number | Pass |
+| GitHub link | Click "GitHub: Md12Ali" | github.com/Md12Ali opens in a new tab | Pass |
+| Images | Load the page | All images and the hero background display | Pass |
+| Responsive | Resize from 320px to 1920px | Layout adapts, with no horizontal scrolling | Pass |
+| Keyboard | Use only Tab and Enter | Every link and button can be reached and used | Pass |
+
+**Devices:** iPhone 12, Samsung Galaxy S21, iPad (10th generation), Windows laptop, MacBook Air  
+**Browsers:** Chrome, Firefox, Safari, Edge
+
+## 7. Bugs
+| Bug | Cause | Fix | Status |
+|-----|-------|-----|--------|
+| Navbar overlapped content on mobile | Fixed navbar covered the top of sections | CSS media queries | Fixed |
+| External links opened in the same tab | Links were missing `target="_blank"` | Added `target="_blank" rel="noopener noreferrer"` | Fixed |
+| Email link gave an error instead of opening the email app | `href` was missing the `mailto:` prefix | Added `mailto:` | Fixed |
+| Portfolio images had empty alt text | Template placeholders not filled in | Wrote descriptive alt text for all six images and the logo | Fixed |
+| Image filenames had capitals (e.g. `Capture1.PNG`), which break on case-sensitive servers | Default screenshot names | Renamed to lowercase, descriptive names (e.g. `welfare-trust.png`) and updated `index.html` | Fixed |
+| Hero background image did not load | Template path pointed to a missing `assets/img/` folder | Overrode the path to `img/bg-masthead.jpg` in `custom.css` | Fixed |
+
+## 8. Deployment
+The site is hosted on **Neocities**, a free static hosting service.
+
+1. Validated the HTML and CSS, and tested all links and file paths locally.
+2. Logged in to the Neocities dashboard.
+3. Uploaded the contents of the `Portfolio/` folder (`index.html` and the `css/`, `js/` and `img/` folders) to the root of the site, keeping the same structure as the repository.
+4. Opened the live site and checked that all images, navigation, links and the lightbox work, with no errors in the browser console.
+
+To update the site, I commit the changes to GitHub first. Then I upload the same changed files to Neocities and check the live page again.
+
+### Run locally
+1. Clone the repository: `git clone https://github.com/Md12Ali/Awesome-Design.git`
+2. Open `Portfolio/index.html` in any browser. Nothing needs to be installed.
+
+---
+
+**Contact:** Mohammed Ali — [mohammed_12ali@outlook.com](mailto:mohammed_12ali@outlook.com)
