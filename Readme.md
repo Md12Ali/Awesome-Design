@@ -5,7 +5,7 @@
 **Author:** Mohammed Ali  
 **Unit:** Unit 1 – User Centric Front End Development (Y/650/3525)
 
-![Hero section of the live Awesome Design portfolio website](Portfolio/img/screenshot-hero.png)
+![Hero section of the live Awesome Design portfolio website](portfolio/img/screenshot-hero.png)
 
 ## Contents
 1. [Project Overview](#1-project-overview)
@@ -56,11 +56,11 @@ The [Testing section](#user-story-verification) verifies each story against the 
 ### Wireframes
 I made low-fidelity wireframes in Adobe Photoshop before building the site, to plan the layout on desktop, tablet and mobile.
 
-![Low-fidelity homepage wireframe showing navigation, hero, about, services, portfolio and contact](Portfolio/img/home-wireframe.jpeg)
+![Low-fidelity homepage wireframe showing navigation, hero, about, services, portfolio and contact](portfolio/img/home-wireframe.jpeg)
 
-![Wireframe of the services blocks and portfolio grid on desktop, tablet and mobile](Portfolio/img/service-wireframe.jpeg)
+![Wireframe of the services blocks and portfolio grid on desktop, tablet and mobile](portfolio/img/service-wireframe.jpeg)
 
-![Wireframe of the contact block with email address and social icons](Portfolio/img/contact-wireframe.jpeg)
+![Wireframe of the contact block with email address and social icons](portfolio/img/contact-wireframe.jpeg)
 
 **Changes from wireframe to final site:**
 - The final site has four services instead of three, and six portfolio projects.
@@ -183,11 +183,11 @@ Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve 
 ### Code validation
 **HTML:** W3C Nu HTML Checker, tested on the live site. Result: no errors or warnings.
 
-![W3C Nu HTML Checker result for ali-design.neocities.org showing no errors or warnings](Portfolio/img/html-validation.jpeg)
+![W3C Nu HTML Checker result for ali-design.neocities.org showing no errors or warnings](portfolio/img/html-validation.jpeg)
 
 **CSS:** W3C Jigsaw CSS Validator (CSS level 3 + SVG), tested on the live site. Result: no errors.
 
-![W3C CSS Validator result for ali-design.neocities.org showing no errors](Portfolio/img/css-validation.jpeg)
+![W3C CSS Validator result for ali-design.neocities.org showing no errors](portfolio/img/css-validation.jpeg)
 
 ### User story verification
 | # | User story | How it is met | Evidence | Result |
@@ -199,16 +199,16 @@ Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve 
 | 5 | Screen-reader user understands content | All images have alt text. The navigation is labelled and icons are hidden. The HTML validator passes. | Alt text table in [section 3](#accessibility), HTML validation above | Pass |
 
 **Screenshot 1:** hero section on desktop  
-![Hero section with headline, introduction and navigation](Portfolio/img/screenshot-hero.png)
+![Hero section with headline, introduction and navigation](portfolio/img/screenshot-hero.png)
 
 **Screenshot 2:** portfolio grid with six projects  
-![Recent Projects grid showing six portfolio screenshots](Portfolio/img/screenshot-portfolio.png)
+![Recent Projects grid showing six portfolio screenshots](portfolio/img/screenshot-portfolio.png)
 
 **Screenshot 3:** site on a mobile screen  
-![Portfolio site on a mobile screen with the collapsed menu button](Portfolio/img/screenshot-mobile.png)
+![Portfolio site on a mobile screen with the collapsed menu button](portfolio/img/screenshot-mobile.png)
 
 **Screenshot 4:** contact section  
-![Contact section showing phone number, email address and GitHub link](Portfolio/img/screenshot-contact.png)
+![Contact section showing phone number, email address and GitHub link](portfolio/img/screenshot-contact.png)
 
 ### Manual testing
 | Area | Test | Expected result | Result |
@@ -245,14 +245,14 @@ The site is hosted on **Neocities**, a free static hosting service.
 
 1. Validated the HTML and CSS, and tested all links and file paths locally.
 2. Logged in to the Neocities dashboard.
-3. Uploaded the contents of the `Portfolio/` folder (`index.html` and the `css/`, `js/` and `img/` folders) to the root of the site, keeping the same structure as the repository.
+3. Uploaded the contents of the `portfolio/` folder (`index.html` and the `css/`, `js/` and `img/` folders) to the root of the site, keeping the same structure as the repository.
 4. Opened the live site and checked that all images, navigation, links and the lightbox work, with no errors in the browser console.
 
 To update the site, I commit the changes to GitHub first. Then I upload the same changed files to Neocities and check the live page again.
 
 ### Run locally
 1. Clone the repository: `git clone https://github.com/Md12Ali/Awesome-Design.git`
-2. Open `Portfolio/index.html` in any browser. Nothing needs to be installed.
+2. Open `portfolio/index.html` in any browser. Nothing needs to be installed.
 
 ---
 
