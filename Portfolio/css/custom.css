@@ -72,3 +72,18 @@ header.masthead {
         width: auto;
     }
 }
+
+/* Services headings: the section title is now an H2 and each service is an H3
+   (previously H3 + H4s). Keep the sizes close to the original design. */
+#services .content-section-heading h2 {
+    font-size: 2.5rem;
+}
+
+#services .services-intro {
+    font-size: 1.5rem;
+}
+
+#services .service-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
