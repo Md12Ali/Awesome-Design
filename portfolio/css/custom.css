@@ -17,13 +17,36 @@ body {
     border-color: #6c757d !important;
 }
 
-/* Brand colour: teal instead of the Creative template's orange (#f4623a) */
+/* Brand colour: teal instead of the Creative template's orange (#f4623a).
+   Darkened from #1997ab to #0f6674 so text on it meets WCAG AA (4.5:1).
+   Checked contrast ratios are recorded in the README (Accessibility). */
 .bg-primary {
-    background-color: #1997ab !important;
+    background-color: #0f6674 !important;
+}
+
+/* Text contrast in About and Services.
+   Before: #dadada / 70% white on #1997ab = about 2.5:1 (fails AA).
+   After: solid white #ffffff on #0f6674 = 6.62:1 (passes AA). */
+#about .text-white-50,
+#services .text-faded,
+#services .services-intro,
+#services .content-section-heading h2 {
+    color: #ffffff !important;
+}
+
+/* White divider on the teal About background so it stays visible */
+hr.divider.light {
+    border-color: #ffffff;
+}
+
+/* Footer: #6c757d on #f8f9fa is 4.45:1 (just below AA);
+   #5a6268 on #f8f9fa is 5.89:1 */
+footer .text-muted {
+    color: #5a6268 !important;
 }
 
 hr.divider {
-    border-color: #1997ab;
+    border-color: #0f6674;
 }
 
 /* Hero background: the Creative template points to ../assets/img/,
@@ -71,4 +94,19 @@ header.masthead {
         height: 48px;
         width: auto;
     }
+}
+
+/* Services headings: the section title is now an H2 and each service is an H3
+   (previously H3 + H4s). Keep the sizes close to the original design. */
+#services .content-section-heading h2 {
+    font-size: 2.5rem;
+}
+
+#services .services-intro {
+    font-size: 1.5rem;
+}
+
+#services .service-title {
+    font-size: 1.5rem;
+    font-weight: 700;
 }

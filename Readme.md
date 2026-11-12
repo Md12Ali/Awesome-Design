@@ -5,7 +5,7 @@
 **Author:** Mohammed Ali  
 **Unit:** Unit 1 – User Centric Front End Development (Y/650/3525)
 
-![Hero section of the live Awesome Design portfolio website](Portfolio/img/screenshot-hero.png)
+![Hero section of the live Awesome Design portfolio website](portfolio/img/screenshot-hero.png)
 
 ## Contents
 1. [Project Overview](#1-project-overview)
@@ -16,6 +16,7 @@
 6. [Testing](#6-testing)
 7. [Bugs](#7-bugs)
 8. [Deployment](#8-deployment)
+9. [Development Log](#9-development-log)
 
 ---
 
@@ -44,7 +45,7 @@ The [Testing section](#user-story-verification) verifies each story against the 
 ### Design principles
 - **Simplicity:** clean sections, clear headings and only four menu links.
 - **Information hierarchy:** introduction first (Hero, About), proof of work second (Services, Portfolio) and contact last.
-- **Consistency:** one teal brand colour (`#1997ab`) on dividers and section backgrounds, the same grey button style, and the same fonts and icon style throughout.
+- **Consistency:** one teal brand colour (`#0f6674`) on dividers and section backgrounds, the same grey button style, and the same fonts and icon style throughout.
 - **User control:** nothing plays or moves on its own. Every action (menu, scrolling, opening a project) is started by the user.
 - **Mobile first:** the Bootstrap grid stacks content on small screens and spreads it out on larger ones.
 
@@ -56,11 +57,11 @@ The [Testing section](#user-story-verification) verifies each story against the 
 ### Wireframes
 I made low-fidelity wireframes in Adobe Photoshop before building the site, to plan the layout on desktop, tablet and mobile.
 
-![Low-fidelity homepage wireframe showing navigation, hero, about, services, portfolio and contact](Portfolio/img/home-wireframe.jpeg)
+![Low-fidelity homepage wireframe showing navigation, hero, about, services, portfolio and contact](portfolio/img/home-wireframe.jpeg)
 
-![Wireframe of the services blocks and portfolio grid on desktop, tablet and mobile](Portfolio/img/service-wireframe.jpeg)
+![Wireframe of the services blocks and portfolio grid on desktop, tablet and mobile](portfolio/img/service-wireframe.jpeg)
 
-![Wireframe of the contact block with email address and social icons](Portfolio/img/contact-wireframe.jpeg)
+![Wireframe of the contact block with email address and social icons](portfolio/img/contact-wireframe.jpeg)
 
 **Changes from wireframe to final site:**
 - The final site has four services instead of three, and six portfolio projects.
@@ -79,7 +80,18 @@ I made low-fidelity wireframes in Adobe Photoshop before building the site, to p
 - **Footer:** copyright line with the template credit.
 
 ### Accessibility
-- **Semantic elements:** `<nav>`, `<header>`, `<main>`, `<section>` and `<footer>`, with a single `<h1>`.
+- **Semantic elements:** `<nav>`, `<header>`, `<main>`, `<section>` and `<footer>`.
+- **Heading structure:** one `<h1>` (hero), an `<h2>` for each section (About, Services, Recent Projects, Contact) and an `<h3>` for each of the four services.
+- **Colour contrast:** checked against WCAG 2.1 AA (4.5:1 for normal text, 3:1 for large text) with the WebAIM Contrast Checker formula.
+
+  | Where | Text colour | Background | Ratio | Result |
+  |-------|-------------|------------|-------|--------|
+  | About and Services body text (before fix) | `#dadada` / 70% white | `#1997ab` | about 2.5:1 | Fail |
+  | About and Services body text (after fix) | `#ffffff` | `#0f6674` | 6.62:1 | Pass |
+  | About and Services headings | `#ffffff` | `#0f6674` | 6.62:1 | Pass |
+  | Buttons | `#ffffff` | `#6c757d` | 4.69:1 | Pass |
+  | Contact text | `#6c757d` | `#ffffff` | 4.69:1 | Pass |
+  | Footer text (after fix) | `#5a6268` | `#f8f9fa` | 5.89:1 | Pass |
 - **Alt text:** every content image has descriptive alt text, including the logo and all six portfolio images:
 
   | Image file | Alt text |
@@ -114,7 +126,7 @@ I made low-fidelity wireframes in Adobe Photoshop before building the site, to p
 | Bootstrap | 4.5.3 | Grid, navbar and responsive utilities. The CSS is compiled into the Creative template's `styles.css`; the JavaScript bundle loads from a CDN. |
 | Google Fonts | | Merriweather and Merriweather Sans |
 | Font Awesome | 5.15.1 | Service, contact and GitHub icons |
-| jQuery | 3.5.1 | Required by Bootstrap and the template script |
+| jQuery | 3.5.1 (full build) | Required by Bootstrap and the template script. The full build is needed because the slim build has no `.animate()` for smooth scrolling. |
 | jQuery Easing | 1.4.1 | Smooth scrolling |
 | Magnific Popup | 1.1.0 | Portfolio image lightbox |
 | Adobe Photoshop and Illustrator | | Wireframes, logo and graphics |
@@ -141,9 +153,11 @@ My colour changes are no longer inside the template files. I have trimmed some u
 - **Services:** four services with my own choice of Font Awesome icons.
 - **Contact:** working `tel:`, `mailto:` and GitHub links.
 - **`css/custom.css`** (all my own CSS):
-  - Teal brand colour (`#1997ab`) replacing the Creative template's orange on dividers and section backgrounds
+  - Teal brand colour (`#0f6674`, darkened from `#1997ab` for contrast) replacing the Creative template's orange on dividers and section backgrounds
   - Grey buttons (`#6c757d`) replacing the Stylish Portfolio blue
   - Media query that shrinks the logo on screens below 992px, so the mobile navbar does not cover the headline
+  - White text on the teal sections and a darker footer text colour to pass WCAG AA contrast
+  - Font sizes for the new Services H2 and H3 headings
   - Merriweather body font
   - Corrected path for the hero background image
   - Portfolio image scaling and hover zoom
@@ -153,7 +167,7 @@ My colour changes are no longer inside the template files. I have trimmed some u
   - ARIA labels, and decorative icons hidden from screen readers
   - A `<main>` landmark
   - Meta description
-- **Files:** renamed all images to lowercase, descriptive names.
+- **Files:** renamed all images and the `portfolio/` folder to lowercase, descriptive names.
 - **Documentation:** wireframes, testing and this README.
 
 ### External resources
@@ -183,11 +197,11 @@ Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve 
 ### Code validation
 **HTML:** W3C Nu HTML Checker, tested on the live site. Result: no errors or warnings.
 
-![W3C Nu HTML Checker result for ali-design.neocities.org showing no errors or warnings](Portfolio/img/html-validation.jpeg)
+![W3C Nu HTML Checker result for ali-design.neocities.org showing no errors or warnings](portfolio/img/html-validation.jpeg)
 
 **CSS:** W3C Jigsaw CSS Validator (CSS level 3 + SVG), tested on the live site. Result: no errors.
 
-![W3C CSS Validator result for ali-design.neocities.org showing no errors](Portfolio/img/css-validation.jpeg)
+![W3C CSS Validator result for ali-design.neocities.org showing no errors](portfolio/img/css-validation.jpeg)
 
 ### User story verification
 | # | User story | How it is met | Evidence | Result |
@@ -199,60 +213,75 @@ Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve 
 | 5 | Screen-reader user understands content | All images have alt text. The navigation is labelled and icons are hidden. The HTML validator passes. | Alt text table in [section 3](#accessibility), HTML validation above | Pass |
 
 **Screenshot 1:** hero section on desktop  
-![Hero section with headline, introduction and navigation](Portfolio/img/screenshot-hero.png)
+![Hero section with headline, introduction and navigation](portfolio/img/screenshot-hero.png)
 
 **Screenshot 2:** portfolio grid with six projects  
-![Recent Projects grid showing six portfolio screenshots](Portfolio/img/screenshot-portfolio.png)
+![Recent Projects grid showing six portfolio screenshots](portfolio/img/screenshot-portfolio.png)
 
 **Screenshot 3:** site on a mobile screen  
-![Portfolio site on a mobile screen with the collapsed menu button](Portfolio/img/screenshot-mobile.png)
+![Portfolio site on a mobile screen with the collapsed menu button](portfolio/img/screenshot-mobile.png)
 
 **Screenshot 4:** contact section  
-![Contact section showing phone number, email address and GitHub link](Portfolio/img/screenshot-contact.png)
+![Contact section showing phone number, email address and GitHub link](portfolio/img/screenshot-contact.png)
 
-### Manual testing
-| Area | Test | Expected result | Result |
-|------|------|-----------------|--------|
-| Navigation | Click About, Services, Portfolio and Contact | Page scrolls smoothly to that section | Pass |
-| Logo | Click the logo | Page scrolls back to the top | Pass |
-| Mobile menu | Tap the menu button below 992px | Menu opens and closes | Pass |
-| Hero button | Click "Find Out More" | Scrolls to About | Pass |
-| About button | Click "Get Started!" | Scrolls to Services | Pass |
-| Portfolio | Click each of the six projects | Image opens in the lightbox | Pass |
-| Portfolio hover | Hover over a project | Image zooms and the caption shows | Pass |
-| Email link | Click mohammed_12ali@outlook.com | Email app opens with the address filled in | Pass |
-| Phone link | Tap +44 7476 283894 on a phone | Dialler opens with the number | Pass |
-| GitHub link | Click "GitHub: Md12Ali" | github.com/Md12Ali opens in a new tab | Pass |
-| Images | Load the page | All images and the hero background display | Pass |
-| Responsive | Resize from 320px to 1920px | Layout adapts, with no horizontal scrolling | Pass |
-| Keyboard | Use only Tab and Enter | Every link and button can be reached and used | Pass |
+### Manual testing (after the 11 November 2026 fixes)
+Tested on the live site after redeploying to Neocities. **Actual** is what happened when I ran the test.
 
-**Devices:** iPhone 12, Samsung Galaxy S21, iPad (10th generation), Windows laptop, MacBook Air  
-**Browsers:** Chrome, Firefox, Safari, Edge
+**Browsers:** Chrome, Firefox, Edge, Safari (iPhone)
+**Screen sizes:** 320px, 375px (phone), 768px (tablet), 1366px (laptop), 1920px (desktop)
+
+| Area | Test | Browser / screen size | Expected result | Actual result | Pass/Fail |
+|------|------|-----------------------|-----------------|---------------|-----------|
+| Console | Open DevTools > Console, load the page, then use every link and button | Chrome 1366px | No errors in the console | TBC | TBC |
+| Navigation | Click About, Services, Portfolio and Contact | Chrome, Firefox, Edge 1366px | Page scrolls smoothly to that section, no console errors | TBC | TBC |
+| Logo | Click the logo | Chrome 1366px | Page scrolls back to the top | TBC | TBC |
+| Hero button | Click "Find Out More" | Chrome 1366px | Scrolls smoothly to About | TBC | TBC |
+| About button | Click "Get Started!" | Chrome 1366px | Scrolls smoothly to Services | TBC | TBC |
+| Mobile menu | Tap the menu button, then tap a link | Chrome 375px, Safari iPhone | Menu opens; after tapping a link it closes and scrolls to the section | TBC | TBC |
+| Gallery | Click each of the six projects, use the arrows, press Esc | Chrome, Firefox 1366px | Image opens in the lightbox, arrows move between images, Esc closes it | TBC | TBC |
+| Portfolio hover | Hover over a project | Chrome 1366px | Image zooms | TBC | TBC |
+| Contrast | Check About and Services text | Chrome 1366px | White text on dark teal, easy to read (6.62:1) | TBC | TBC |
+| Email link | Click the email address | Chrome 1366px | Email app opens with the address filled in | TBC | TBC |
+| Phone link | Tap the phone number | Safari iPhone | Dialler opens with the number | TBC | TBC |
+| GitHub link | Click "GitHub: Md12Ali" | Chrome 1366px | github.com/Md12Ali opens in a new tab | TBC | TBC |
+| Images | Load the page | All browsers | All images and the hero background display | TBC | TBC |
+| Responsive | Resize through 320, 375, 768, 1366, 1920px | Chrome DevTools | Layout adapts, no horizontal scrolling | TBC | TBC |
+| Keyboard | Use only Tab and Enter | Chrome 1366px | Every link and button can be reached and used | TBC | TBC |
 
 ## 7. Bugs
-| Bug | Cause | Fix | Status |
-|-----|-------|-----|--------|
-| Navbar covered the top of the hero headline on phones | The full-size logo pushed the menu button onto a second line, making the fixed navbar too tall | Media query in `custom.css` that shrinks the logo below 992px | Fixed |
-| External links opened in the same tab | Links were missing `target="_blank"` | Added `target="_blank" rel="noopener noreferrer"` | Fixed |
-| Email link gave an error instead of opening the email app | `href` was missing the `mailto:` prefix | Added `mailto:` | Fixed |
-| Portfolio images had empty alt text | Template placeholders not filled in | Wrote descriptive alt text for all six images and the logo | Fixed |
-| Image filenames had capitals (e.g. `Capture1.PNG`), which break on case-sensitive servers | Default screenshot names | Renamed to lowercase, descriptive names (e.g. `welfare-trust.png`) and updated `index.html` | Fixed |
-| Hero background image did not load | Template path pointed to a missing `assets/img/` folder | Overrode the path to `img/bg-masthead.jpg` in `custom.css` | Fixed |
+Every bug below was retested on the live site after the fix.
+
+| Bug | Cause | Fix | Retested | Status |
+|-----|-------|-----|----------|--------|
+| Console error "animate is not a function" when clicking nav links and buttons; smooth scrolling broken | The slim jQuery build has no `.animate()` | Switched to the full jQuery 3.5.1 build | TBC | Fixed |
+| About and Services text hard to read (about 2.5:1 contrast) | Light grey / 70% white text on `#1997ab` | Darker teal `#0f6674` and white text (6.62:1) | TBC | Fixed |
+| Services headings skipped from H3 to H4 with no H2 | Template heading levels | H2 for the section, H3 for each service | TBC | Fixed |
+| `Portfolio/` folder had a capital letter | Original folder name | Renamed to `portfolio/` and updated README paths | TBC | Fixed |
+| Navbar covered the top of the hero headline on phones | The full-size logo pushed the menu button onto a second line, making the fixed navbar too tall | Media query in `custom.css` that shrinks the logo below 992px | TBC | Fixed |
+| External links opened in the same tab | Links were missing `target="_blank"` | Added `target="_blank" rel="noopener noreferrer"` | TBC | Fixed |
+| Email link gave an error instead of opening the email app | `href` was missing the `mailto:` prefix | Added `mailto:` | TBC | Fixed |
+| Portfolio images had empty alt text | Template placeholders not filled in | Wrote descriptive alt text for all six images and the logo | TBC | Fixed |
+| Image filenames had capitals (e.g. `Capture1.PNG`) | Default screenshot names | Renamed to lowercase, descriptive names and updated `index.html` | TBC | Fixed |
+| Hero background image did not load | Template path pointed to a missing `assets/img/` folder | Overrode the path to `img/bg-masthead.jpg` in `custom.css` | TBC | Fixed |
 
 ## 8. Deployment
 The site is hosted on **Neocities**, a free static hosting service.
 
 1. Validated the HTML and CSS, and tested all links and file paths locally.
 2. Logged in to the Neocities dashboard.
-3. Uploaded the contents of the `Portfolio/` folder (`index.html` and the `css/`, `js/` and `img/` folders) to the root of the site, keeping the same structure as the repository.
+3. Uploaded the contents of the `portfolio/` folder (`index.html` and the `css/`, `js/` and `img/` folders) to the root of the site, keeping the same structure as the repository.
 4. Opened the live site and checked that all images, navigation, links and the lightbox work, with no errors in the browser console.
 
 To update the site, I commit the changes to GitHub first. Then I upload the same changed files to Neocities and check the live page again.
 
 ### Run locally
 1. Clone the repository: `git clone https://github.com/Md12Ali/Awesome-Design.git`
-2. Open `Portfolio/index.html` in any browser. Nothing needs to be installed.
+2. Open `portfolio/index.html` in any browser. Nothing needs to be installed.
+
+---
+
+## 9. Development Log
+Earlier commits made through the GitHub web uploader have generic messages ("Add files via upload", "Update README.md"). [DEVELOPMENT_LOG.md](DEVELOPMENT_LOG.md) explains what each stage of work actually changed.
 
 ---
 
