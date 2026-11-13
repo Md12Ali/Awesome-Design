@@ -195,13 +195,15 @@ Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve 
 ## 6. Testing
 
 ### Code validation
-**HTML:** W3C Nu HTML Checker, tested on the live site. Result: no errors or warnings.
+Both validators were re-run on the live site on 13 November 2026, after the fixes were redeployed.
 
-![W3C Nu HTML Checker result for ali-design.neocities.org showing no errors or warnings](portfolio/img/html-validation.jpeg)
+**HTML:** Nu HTML Checker (the same checker the W3C uses, at html5.validator.nu), tested on the live site. Result: the document is valid, with no errors or warnings.
 
-**CSS:** W3C Jigsaw CSS Validator (CSS level 3 + SVG), tested on the live site. Result: no errors.
+![Nu HTML Checker result for ali-design.neocities.org saying the document is valid HTML5](portfolio/img/html-validation.jpeg)
 
-![W3C CSS Validator result for ali-design.neocities.org showing no errors](portfolio/img/css-validation.jpeg)
+**CSS:** W3C Jigsaw CSS Validator (CSS level 3 + SVG), tested on the live site. Result: no errors. The warnings all come from the template and library CSS (for example vendor prefixes in Bootstrap), not from `custom.css`.
+
+![W3C CSS Validator result for ali-design.neocities.org showing Congratulations, no error found](portfolio/img/css-validation.jpeg)
 
 ### User story verification
 | # | User story | How it is met | Evidence | Result |
