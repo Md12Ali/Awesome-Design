@@ -224,45 +224,48 @@ Thanks to my assessor, Yassin Hassan, for clear feedback that helped me improve 
 **Screenshot 4:** contact section  
 ![Contact section showing phone number, email address and GitHub link](portfolio/img/screenshot-contact.png)
 
-### Manual testing (after the 11 November 2026 fixes)
-Tested on the live site after redeploying to Neocities. **Actual** is what happened when I ran the test.
+### Manual testing (after the November 2026 fixes)
+Tested on the live site (https://ali-design.neocities.org/) on 13 November 2026, after the fixed files were redeployed to Neocities.
 
-**Browsers:** Chrome, Firefox, Edge, Safari (iPhone)
-**Screen sizes:** 320px, 375px (phone), 768px (tablet), 1366px (laptop), 1920px (desktop)
+**Browser:** Google Chrome 156 on Windows 10, with the console open throughout
+**Screen sizes:** 320px and 375px (phones), 768px (tablet), 1366px (laptop) and 1920px (desktop). Each size was tested in a frame of that exact width.
 
-| Area | Test | Browser / screen size | Expected result | Actual result | Pass/Fail |
-|------|------|-----------------------|-----------------|---------------|-----------|
-| Console | Open DevTools > Console, load the page, then use every link and button | Chrome 1366px | No errors in the console | TBC | TBC |
-| Navigation | Click About, Services, Portfolio and Contact | Chrome, Firefox, Edge 1366px | Page scrolls smoothly to that section, no console errors | TBC | TBC |
-| Logo | Click the logo | Chrome 1366px | Page scrolls back to the top | TBC | TBC |
-| Hero button | Click "Find Out More" | Chrome 1366px | Scrolls smoothly to About | TBC | TBC |
-| About button | Click "Get Started!" | Chrome 1366px | Scrolls smoothly to Services | TBC | TBC |
-| Mobile menu | Tap the menu button, then tap a link | Chrome 375px, Safari iPhone | Menu opens; after tapping a link it closes and scrolls to the section | TBC | TBC |
-| Gallery | Click each of the six projects, use the arrows, press Esc | Chrome, Firefox 1366px | Image opens in the lightbox, arrows move between images, Esc closes it | TBC | TBC |
-| Portfolio hover | Hover over a project | Chrome 1366px | Image zooms | TBC | TBC |
-| Contrast | Check About and Services text | Chrome 1366px | White text on dark teal, easy to read (6.62:1) | TBC | TBC |
-| Email link | Click the email address | Chrome 1366px | Email app opens with the address filled in | TBC | TBC |
-| Phone link | Tap the phone number | Safari iPhone | Dialler opens with the number | TBC | TBC |
-| GitHub link | Click "GitHub: Md12Ali" | Chrome 1366px | github.com/Md12Ali opens in a new tab | TBC | TBC |
-| Images | Load the page | All browsers | All images and the hero background display | TBC | TBC |
-| Responsive | Resize through 320, 375, 768, 1366, 1920px | Chrome DevTools | Layout adapts, no horizontal scrolling | TBC | TBC |
-| Keyboard | Use only Tab and Enter | Chrome 1366px | Every link and button can be reached and used | TBC | TBC |
+| Area | Test | Screen size | Expected result | Actual result | Pass/Fail |
+|------|------|-------------|-----------------|---------------|-----------|
+| Console | Load the page and use every link, button, the menu and the gallery | All sizes | No errors from the site in the console | No errors from the site | Pass |
+| Navigation | Click About, Services, Portfolio and Contact | 1366px | Page scrolls smoothly to each section | Each link scrolled smoothly (the page was still moving after 0.35s) and stopped with the section just below the navbar | Pass |
+| Logo | Click the logo | 1366px | Page scrolls back to the top | Scrolled back to the top | Pass |
+| Hero button | Click "Find Out More" | 1366px | Scrolls smoothly to About | Scrolled to About | Pass |
+| About button | Click "Get Started!" | 1366px | Scrolls smoothly to Services | Scrolled to Services | Pass |
+| Mobile menu | Tap the menu button, then tap Contact | 320px, 375px, 768px | Menu opens; tapping a link closes it and scrolls to the section | Menu opened, closed after the link was tapped, and the page scrolled to Contact at all three sizes | Pass |
+| Menu button | Check the menu button on large screens | 1366px, 1920px | Full menu shown, no menu button | Full menu shown, no menu button | Pass |
+| Navbar and headline | Check that the navbar doesn't cover the hero headline | All sizes | Headline fully visible below the navbar | Headline visible at every size | Pass |
+| Gallery | Click each of the six projects, use the arrow, close the lightbox | 1366px | Each image opens in the lightbox, the arrow moves to the next image, Esc closes it | All six opened, the arrow moved to the next image, Esc closed it | Pass |
+| Gallery on mobile | Open a project | 320px, 375px, 768px | Image fits the screen | Image opened and fitted the screen | Pass |
+| Contrast | Check About and Services text colours | 1366px | White text on `#0f6674` (6.62:1) | About and Services text and headings are `#ffffff` on `#0f6674`; footer `#5a6268` on `#f8f9fa` | Pass |
+| Headings | Check the heading order | 1366px | H1, H2 for each section, H3 for each service | H1 > H2 (About, Services, Recent Projects, Contact) > H3 (four services) | Pass |
+| Layout | Check the columns at each size | All sizes | Services: 1 column on phones, 2 on tablet, 4 on desktop | Services 1 / 1 / 2 / 4 / 4 columns and Portfolio 1 / 1 / 2 / 3 / 3 columns at 320 / 375 / 768 / 1366 / 1920px | Pass |
+| Responsive | Check for horizontal scrolling | All sizes | No horizontal scrolling | No horizontal scrolling at any size | Pass |
+| Images | Load the page | 1366px | All images and the hero background display | All images loaded (0 broken), hero background shown | Pass |
+| Contact links | Check the phone, email and GitHub links | 1366px | `tel:` and `mailto:` links; GitHub opens in a new tab | Phone is `tel:+447476283894`, email is `mailto:mohammed_12ali@outlook.com`, GitHub link has `target="_blank"` | Pass |
+| Keyboard | Focus a menu link and press Enter | 1366px | Every link and button can be reached with Tab; Enter follows the link | All 16 visible links and buttons are reachable with Tab and show a focus outline; Enter on "Services" scrolled to Services | Pass |
 
 ## 7. Bugs
-Every bug below was retested on the live site after the fix.
+Every bug below was retested on the live site on 13 November 2026 after the fixes were redeployed (Chrome 156, Windows 10).
 
 | Bug | Cause | Fix | Retested | Status |
 |-----|-------|-----|----------|--------|
-| Console error "animate is not a function" when clicking nav links and buttons; smooth scrolling broken | The slim jQuery build has no `.animate()` | Switched to the full jQuery 3.5.1 build | TBC | Fixed |
-| About and Services text hard to read (about 2.5:1 contrast) | Light grey / 70% white text on `#1997ab` | Darker teal `#0f6674` and white text (6.62:1) | TBC | Fixed |
-| Services headings skipped from H3 to H4 with no H2 | Template heading levels | H2 for the section, H3 for each service | TBC | Fixed |
-| `Portfolio/` folder had a capital letter | Original folder name | Renamed to `portfolio/` and updated README paths | TBC | Fixed |
-| Navbar covered the top of the hero headline on phones | The full-size logo pushed the menu button onto a second line, making the fixed navbar too tall | Media query in `custom.css` that shrinks the logo below 992px | TBC | Fixed |
-| External links opened in the same tab | Links were missing `target="_blank"` | Added `target="_blank" rel="noopener noreferrer"` | TBC | Fixed |
-| Email link gave an error instead of opening the email app | `href` was missing the `mailto:` prefix | Added `mailto:` | TBC | Fixed |
-| Portfolio images had empty alt text | Template placeholders not filled in | Wrote descriptive alt text for all six images and the logo | TBC | Fixed |
-| Image filenames had capitals (e.g. `Capture1.PNG`) | Default screenshot names | Renamed to lowercase, descriptive names and updated `index.html` | TBC | Fixed |
-| Hero background image did not load | Template path pointed to a missing `assets/img/` folder | Overrode the path to `img/bg-masthead.jpg` in `custom.css` | TBC | Fixed |
+| Console error "animate is not a function" when clicking nav links and buttons; smooth scrolling broken | The slim jQuery build has no `.animate()` | Switched to the full jQuery 3.5.1 build | Yes, passed | Fixed |
+| About and Services text hard to read (about 2.5:1 contrast) | Light grey / 70% white text on `#1997ab` | Darker teal `#0f6674` and white text (6.62:1) | Yes, passed | Fixed |
+| After redeploying, browsers that had visited before still showed the old colours | The browser kept its saved copy of `css/custom.css` | Added a version number to the stylesheet link (`css/custom.css?v=2`) so browsers download the new file | Yes, passed | Fixed |
+| Services headings skipped from H3 to H4 with no H2 | Template heading levels | H2 for the section, H3 for each service | Yes, passed | Fixed |
+| `Portfolio/` folder had a capital letter | Original folder name | Renamed to `portfolio/` and updated README paths | Yes, passed | Fixed |
+| Navbar covered the top of the hero headline on phones | The full-size logo pushed the menu button onto a second line, making the fixed navbar too tall | Media query in `custom.css` that shrinks the logo below 992px | Yes, passed | Fixed |
+| External links opened in the same tab | Links were missing `target="_blank"` | Added `target="_blank" rel="noopener noreferrer"` | Yes, passed | Fixed |
+| Email link gave an error instead of opening the email app | `href` was missing the `mailto:` prefix | Added `mailto:` | Yes, passed | Fixed |
+| Portfolio images had empty alt text | Template placeholders not filled in | Wrote descriptive alt text for all six images and the logo | Yes, passed | Fixed |
+| Image filenames had capitals (e.g. `Capture1.PNG`) | Default screenshot names | Renamed to lowercase, descriptive names and updated `index.html` | Yes, passed | Fixed |
+| Hero background image did not load | Template path pointed to a missing `assets/img/` folder | Overrode the path to `img/bg-masthead.jpg` in `custom.css` | Yes, passed | Fixed |
 
 ## 8. Deployment
 The site is hosted on **Neocities**, a free static hosting service.

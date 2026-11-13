@@ -18,5 +18,7 @@ This log explains what was done in each stage of the project. Many earlier commi
 | 11 Nov 2026 | `Fix text contrast in About and Services to meet WCAG AA` | Darkened the brand teal from `#1997ab` to `#0f6674` and made the About and Services text white: 6.62:1 instead of about 2.5:1. |
 | 11 Nov 2026 | `Rename Portfolio directory to lowercase portfolio` | Renamed `Portfolio/` to `portfolio/` and updated all paths in the README. |
 | 11 Nov 2026 | `Add development log and update README testing` | Added this log, recorded the checked colour combinations and rewrote the testing section with browsers, screen sizes, expected and actual results and bug retests. |
+| 13 Nov 2026 | `Force browsers to load the updated custom.css` | Added `?v=2` to the stylesheet link because browsers were still showing the cached old colours after the redeploy. |
+| 13 Nov 2026 | `Record live-site retest results in README` | Redeployed to Neocities and retested every feature at 320–1920px in Chrome, then recorded the actual results and bug retests. |
 
 From 11 November 2026, every commit message describes the change and the reason for it.
