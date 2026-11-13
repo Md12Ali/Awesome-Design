@@ -201,7 +201,7 @@ Both validators were re-run on the live site on 13 November 2026, after the fixe
 
 ![Nu HTML Checker result for ali-design.neocities.org saying the document is valid HTML5](portfolio/img/html-validation.jpeg)
 
-**CSS:** W3C Jigsaw CSS Validator (CSS level 3 + SVG), tested on the live site. Result: no errors. The warnings all come from the template and library CSS (for example vendor prefixes in Bootstrap), not from `custom.css`.
+**CSS:** W3C Jigsaw CSS Validator (CSS level 3 + SVG), tested on the live site. Result: no errors.
 
 ![W3C CSS Validator result for ali-design.neocities.org showing Congratulations, no error found](portfolio/img/css-validation.jpeg)
 

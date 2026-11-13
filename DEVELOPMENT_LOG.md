@@ -20,5 +20,6 @@ This log explains what was done in each stage of the project. Many earlier commi
 | 11 Nov 2026 | `Add development log and update README testing` | Added this log, recorded the checked colour combinations and rewrote the testing section with browsers, screen sizes, expected and actual results and bug retests. |
 | 13 Nov 2026 | `Force browsers to load the updated custom.css` | Added `?v=2` to the stylesheet link because browsers were still showing the cached old colours after the redeploy. |
 | 13 Nov 2026 | `Record live-site retest results in README` | Redeployed to Neocities and retested every feature at 320–1920px in Chrome, then recorded the actual results and bug retests. |
+| 13 Nov 2026 | `Re-validate HTML and CSS on the redeployed live site` | Re-ran the HTML and CSS validators on the live site (both with no errors) and replaced the validation screenshots. |
 
 From 11 November 2026, every commit message describes the change and the reason for it.
